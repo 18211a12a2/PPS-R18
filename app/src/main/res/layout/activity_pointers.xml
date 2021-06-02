@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".pointers" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttoncolor"
+            android:textColor="#FFFFFF"
+            android:text="INTRODUCTION"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="POINTERS TO POINTERS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/button28"
+            app:layout_constraintStart_toStartOf="@+id/button28"
+            app:layout_constraintTop_toBottomOf="@+id/button28" />
+
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="ARRAYS AND POINTERS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button37"
+            app:layout_constraintStart_toStartOf="@+id/button37"
+            app:layout_constraintTop_toBottomOf="@+id/button37" />
+
+        <Button
+            android:id="@+id/button40"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="POINTER ARITHMETIC AND ARRAYS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button39"
+            app:layout_constraintStart_toStartOf="@+id/button39"
+            app:layout_constraintTop_toBottomOf="@+id/button39" />
+
+        <Button
+            android:id="@+id/button51"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="MEMORY ALLOCATION FUNCTIONS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button40"
+            app:layout_constraintStart_toStartOf="@+id/button40"
+            app:layout_constraintTop_toBottomOf="@+id/button40"
+            tools:ignore="UnknownId" />
+
+
+        <Button
+            android:id="@+id/button47"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="ARRAY OF POINTERS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button51"
+            app:layout_constraintStart_toStartOf="@+id/button51"
+            app:layout_constraintTop_toBottomOf="@+id/button51" />
+
+        <Button
+            android:id="@+id/button45"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="POINTERS TO VOID"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button47"
+            app:layout_constraintStart_toStartOf="@+id/button47"
+            app:layout_constraintTop_toBottomOf="@+id/button47" />
+
+        <Button
+            android:id="@+id/button49"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="POINTERS TO FUNCTIONS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button45"
+            app:layout_constraintStart_toStartOf="@+id/button45"
+            app:layout_constraintTop_toBottomOf="@+id/button45" />
+
+        <Button
+            android:id="@+id/button48"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="COMMAND-LINE ARGUMENTS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button49"
+            app:layout_constraintStart_toStartOf="@+id/button49"
+            app:layout_constraintTop_toBottomOf="@+id/button49" />
+
+        <Button
+            android:id="@+id/button46"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="STRINGS CONCEPTS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button48"
+            app:layout_constraintStart_toStartOf="@+id/button48"
+            app:layout_constraintTop_toBottomOf="@+id/button48" />
+
+        <Button
+            android:id="@+id/button42"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="STRING I/O FUNCTIONS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button46"
+            app:layout_constraintStart_toStartOf="@+id/button46"
+            app:layout_constraintTop_toBottomOf="@+id/button46" />
+
+        <Button
+            android:id="@+id/button43"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="ARRAY OF STRINGS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button42"
+            app:layout_constraintStart_toStartOf="@+id/button42"
+            app:layout_constraintTop_toBottomOf="@+id/button42" />
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="STRING MANIPULATION FUNCTIONS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button43"
+            app:layout_constraintStart_toStartOf="@+id/button43"
+            app:layout_constraintTop_toBottomOf="@+id/button43" />
+
+        <Button
+            android:id="@+id/button221"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="QUIZ"
+            android:textAlignment="center"
+            android:textColor="#1098D5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button44"
+            app:layout_constraintStart_toStartOf="@+id/button44"
+            app:layout_constraintTop_toBottomOf="@id/button44"
+            tools:ignore="MissingConstraints,NotSibling" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

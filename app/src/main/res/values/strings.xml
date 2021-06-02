@@ -1,0 +1,1883 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PPS R-18</string>
+    <string name="algorithm"><![CDATA[\n->\t\t\tAlgorithms was developed by an Arab mathematician. It is chalked out step-bystep approach to solve a given problem.\n\n->\t\t\tIt is represented in an English like language and has some mathematical symbols like ->, >, <, = etc. To solve a given problem or to write a program you approach towards solution of the problem in a systematic, disciplined, non-adhoc, step-by-step way is called Algorithmic approach. Algorithm is a penned strategy(to write) to find a solution.\n\n  \tExample:\n Algorithm/pseudo code to add two numbers\n\tStep 1: Start\n\tStep 2:Read the two numbers in to a,b\n\tStep 3: c=a+b\n\tStep 4: write/print c\n\tStep 5: Stop.\n]]></string>
+    <string name="pseudocode"><![CDATA[\n->\t\t\tPseudo code is an artificial and informal language that helps programmers develop algorithms.pseudocode is similar to everyday English, it is convenient and user friendly although it is not an actual computer programming language. \n->\t\t\tPsuedocode programs are not actually executed on computer rather they merely help the programmer “think out” a program before attempting to write it in a programming language such as C.\n]]></string>
+    <string name="flowchart"><![CDATA[\n->\t\t\tA Flow chart is a Graphical representation of an Algorithm or a portion of an Algorithm. \n->\t\t\tFlow charts are drawn using certain special purpose symbols such as Rectangles, Diamonds, Ovals and small circles. These symbols are connected by arrows called flow lines.\n    \t\t\t\t\t\t\t\t(or)\n->\t\t\tThe diagrammatic representation of way to solve the given problem is called flow chart.\n]]></string>
+    <string name="programdsteps"><![CDATA[\n->\t\t\tProgram Development is a multistep process that requires that we understand the problem, develop a solution, write the program, and then test it. \n->\t\t\tWhen we are given the assignment to develop a program, we will be given a program requirements statement and the design of any program interfaces.\n->\t\t\tWe should also receive an overview of the complete project so that we will take the inputs we are given and convert them to the outputs that have been specified. This is known as program design.\n]]></string>
+    <string name="understand"><![CDATA[->\t\t\tThe first step in solving any problem is to understand it. By reading the requirements statements carefully, we fully understand it, we review our understanding with the user and the systems analyst to know the exact purpose.\n]]></string>
+    <string name="developsolution"><![CDATA[->\t\t\tOnce we fully understand the problem we need to develop our solution.\n->\t\t\t Three tools will help in this task. \n1. Structure chart \n2.Psuedocode \n3.Flowcharts \n->\t\t\tGenerally we will use structure chart and either flowchart or Pseudo code\n->\t\t\tThe structure chart is used to design the whole program .Pseudo code and flowcharts are used to design the individual parts of the program.\n\n STRUCTURE CHART :\n\t\t\t A structure chart, also known as hierarchy chart, shows the functional flow through our program. \n->\t\t\tThe structure chart shows how we are going to break our program into logical steps each step will be a separate module. The structure chart shows the interaction between all the parts (modules) of our program.\n->\t\t\tWe can use flowchart or pseudo code to complete the design of your program will depend on experience and difficulty of the program your designing.\n]]></string>
+    <string name="whatthe"><![CDATA[->\t\t\tWhen we write a program, we start with the top box on the structure chart and work our way to the bottom. This is known as top-down implementation. \n->\t\t\tWe will write the programs by using structure chart and flowchart or pseudo code.\n]]></string>
+    <string name="testing"><![CDATA[->\t\t\tProgram testing can be a very tedious and time- consuming part of program development. As the programmer we are responsible for completely testing our program. \n->\t\t\tIn largedevelopment projects test engineers are responsible for testing to make sure all the programs work together. \n->\t\t\tThere are 2 types of testing.\n\t\n1. BLACK BOX TESTING:\n->\t\t\tThis is done by the system test engineer and the user. Black box testing is the programs are tested without knowing what is inside it, with out knowing how it works.\n->\t\t\tBlack box test plans are developed by looking only the requirements statement. The test engineer uses these requirements to develop test plans. \n\t\n2. WHITE BOX TESTING:\n->\t\t\tThis is the responsibility of the programmer. \n->\t\t\tWhite box testing assumes that the tester knows everything about the program.\n->\t\t\tExcept for the simplest program, one set of test data will not completely validate a program. \n]]></string>
+    <string name="cl"><![CDATA[\n->\t\t\tTo write a program for a computer, we must use a computer language. \n->\t\t\tOver the years computer languages have evolved from machine languages to natural languages.\n\n\t1940’s\t\t\t\t\t\tMachine level Languages \n\t1950’s\t\t\t\t\t\tSymbolic Languages \n\t1960’s\t\t\t\t\t\tHigh-Level Languages\n]]></string>
+    <string name="mlang"><![CDATA[\n->\t\t\tIn the earliest days of computers, the only programming languages available were machine languages. \n->\t\t\tEach computer has its own machine language, which is made of streams of 0’s and 1’s.\n->\t\t\tInstructions in machine language must be in streams of 0’s and 1’s because the internal circuits of a computer are made of switches transistors and other electronic devices that can be in one of two states: off or on. \n->\t\t\tThe off state is represented by 0 , the on state is represented by 1. \n->\t\t\tThe only language understood by computer hardware is machine language.\n]]></string>
+    <string name="slang"><![CDATA[\n->\t\t\tIn early 1950’s Admiral Grace Hopper, A mathematician and naval officer developed the concept of a special computer program that would convert programs into machine language. \n->\t\t\tThe early programming languages simply mirror to the machine languages using symbols of mnemonics to represent the various machine language instructions because they used symbols, these languages were known as symbolic languages. \n->\t\t\tComputer does not understand symbolic language it must be translated to the machine language. A special program called assembler translates symbolic code into machine language. \n->\t\t\tBecause symbolic languages had to be assembled into machine language they soon became known as assembly languages. \n->\t\t\tSymbolic language uses symbols or mnemonics to represent the various ,machine language instructions.\n]]></string>
+    <string name="hlang"><![CDATA[\n->\t\t\tSymbolic languages greatly improved programming effificiency; they still required programmers to concentrate on the hardware that they were using. \n->\t\t\tWorking with symbolic languages was also very tedious because each machine instruction has to be individually coded. \n->\t\t\tThe desire to improve programmer efficiency and to change the focus
+from the computer to the problem being solved led to the development of high-level language.
+\n->\t\t\tHigh level languages are portable to many different computers, allowing the programmer to concentrate on the application problem at hand rather than the intricacies of the computer. \n->\t\t\tHigh-level languages are designed to relieve the programmer from the details of the assembly language. High level languages share one thing with symbolic languages, They must be converted into machine language. \n->\t\t\tThe process of converting them is known as compilation. \n
+->\t\t\tThe first widely used high-level languages, FORTRAN (FORmula  TRANslation)was created by John Backus and an IBM team in 1957;it is still widely used today in scientific and engineering applications. \n->\t\t\tAfter FORTRAN was COBOL(Common BusinessOriented Language). Admiral Hopper was played a key role in the development of the COBOL Business language. \n->\t\t\tC is a high-level language used for system software and new application code. \n
+]]></string>
+    <string name="cnrprogs"><![CDATA[\n->\t\t\tComputer hardware understands a program only if it is coded in its machine language. \n->\t\t\tit is the job of the programmer to write and test the program .There are four steps in this process:\n1.Writing and Editing the program\n2.Compiliing the program \n3.Linking the program with the required library modules 4.Executing the program. \n]]></string>
+
+    <string name="writeedit"><![CDATA[->\t\t\tThe software used to write programs is known as a text editor. \n->\t\t\tA text editor helps us enter, change, and store character data. Depending on the editor on our system, we could use it to write letters, create reports, or write programs. \n->\t\t\tThe main difference between text processing and program writing is that programs are written using lines of code, while most text processing is done with character and lines.\n->\t\t\tText editor is a generalized word processor, but it is more often a special editor included with the compiler. \n->\t\t\tSome of the features of the editor are search commands to locate and replace statements, copy and paste commands to copy or move statements from one part of a program to another, and formatting commands that allow us to set tabs to align statements. \n->\t\t\tAfter completing a program, we save our file to disk. This file will be input to the compiler; it is known as a source file. \n]]></string>
+    <string name="compiling"><![CDATA[->\t\t\tThe code in a source file stored on the disk  must be translated into machine language ,This is the job of the compiler. \n->\t\t\tThe c compiler is two separate programs. the preprocessor and the translator.
+
+
+\n->The preprocessor reads the source code and prepares it for the translator. While preparing the code ,it scans for special instructions known as preprocessor commands. \n->\t\t\tThese commands tell the preprocessor to look for special code libraries, make substitutions in the code ,and in other ways prepare the code for translation into machine language. \n->\t\t\tThe result of preprocessing is called the translation unit.
+
+\n->After the preprocessor has prepared the code for compilation, the translator does the actual work of converting the program into machine language. \n->\t\t\tThe translator reads the translation unit and writes the resulting object module to a file that can then be combined with other precompiled units to form the final program. \n->\t\t\An object module is the code in machine language. The output of the compiler is machine language code, but it is not ready to run; that is ,it is not executable because it does not have the required C and other functions included.\n]]></string>
+    <string name="linking"><![CDATA[->\t\t\tA C program is made up of many functions. We write some of these functions, and they are a part of our source program. There are other functions, such as input/output processes and, mathematical library functions, that exist elsewhere and must be attached to our program. \n->\t\t\tThe linker assembles all of these functions, ours and systems into our final executable program.
+ \n]]></string>
+    <string name="executing"><![CDATA[->\t\t\tOnce program has been linked, it is ready for execution. To execute a program we use an operating system command, such as run, to load the program into primary memory and execute it. \n->\t\t\tGetting the program into memory is the function of an operating system program known as the loader. It locates the executable program and reads it into memory. \n->\t\t\tWhen everything is loaded, the program takes control and it begins execution. \n\t\t\tIn a typical program execution, the reads data for processing ,either from the user or from a file. After the program processes the data, it prepares the output. at output can be to the user’s monitor or to a file. \n->\t\t\tWhen the program has finished its job, it tells the operating system ,which then removes the program from memory.]]></string>
+    <string name="simpleifa"><![CDATA[\n->\t\t\t
+  The if statement is a two way decision statement and is used in conjunction with an expression.\n\nif (test expression) \n{  \n\t\t\t\tstatement block;
+
+\n} \n\t\t\t\tstatement–x ;
+
+\n\nonly statement–x is executed. \n\nEXAMPLE:\n ]]></string>
+    <string name="simpleifb"><![CDATA[#include<stdio.h>
+int main(){
+\n\t\t\tint number=0;
+\n\t\t\tprintf(“Enter a number : ”);
+\n\t\t\tscanf(“%d”,&number);
+\n\t\t\tif(number%2==0){
+\n\t\t\t\t\t\tprintf(“%d is even number”,number);
+
+\n\t\t\t}
+\n\t\t\treturn 0;
+\n}    ]]></string>
+    <string name="simpleifc"><![CDATA[\nOUTPUT:\n
+
+\nEnter a number : 4
+\n4 is even number
+\nEnter a number : 5
+\n5 is even number
+]]></string>
+
+    <string name="ifelsea"><![CDATA[\n->\t\t\tIf your have another set of statement to be executed if condition is false then ifelse is used \nif (test expression) \n{  \n\t\t\tstatement block1; \n}
+\nelse \n{  \n\t\t\tstatement block2; \n} \n\t\t\tstatement –x ; \n\nEAMPLE:]]></string>
+    <string name="ifelseb"><![CDATA[\n#include<stdio.h>
+\nint main(){
+\n\t\t\tint number=0;
+\n\t\t\tprintf(“enter a number:”);
+\n\t\t\tscanf(“%d”,&number);
+\n\t\t\tif(number%2==0){
+\n\t\t\t\n\t\t\tprintf(“%d is even number,number);
+\n\t\t\t}
+\n\t\t\telse{
+\n\t\t\t\n\t\t\tprintf(“%d is odd number”,number);
+
+\n\t\t\t}
+\n\t\t\treturn 0;
+\n}    ]]></string>
+    <string name="ifelsec"><![CDATA[\nOUTPUT:\n
+
+\nenter a number:4
+\n4 is even number
+\nenter a number:5
+\n5 is odd number]]></string>
+    <string name="nestedifelsea"><![CDATA[\n->\t\t\tIf more than one if else statement\n\nif (test expression2
+\n{
+\n\t\t\t{
+\n\t\t\t\t\t\tstatement block1;
+\n\t\t\t{
+\n\t\t\t\t\t\tstatement block 2;
+\n\t\t\t}
+\n}
+\nif(text cond1)
+\nelse
+\n\t\t\telse
+\n\t\t\t}
+\n{
+\n\t\t\tstatement block2;
+\n}
+\nstatement-x ;\n\nEXAMPLE:\n]]></string>
+    <string name="nestedifelseb"><![CDATA[#include<stdio.h>
+\nint main(){
+\n\t\t\tint number=0;
+\n\t\t\tprintf(“enter a number:”);
+\n\t\t\tscanf(“%d”,&number);
+\n\t\t\tif(number==10){
+\n\t\t\t\t\t\tprintf(“number is equals to 10”);
+\n\t\t\t}
+\n\t\t\telse if(number==50){
+\n\t\t\t\t\t\tprintf(“number is equal to 50”);
+\n\t\t\t}
+\n\t\t\telse if(number==100){
+\n\t\t\t\t\t\tprintf(“number is equal to 100”);
+\n\t\t\t}
+\n\t\t\telse{
+\n\t\t\t\t\t\tprintf(“number is not equal to 10, 50 or 100”);
+
+\n\t\t\t}
+\n\t\t\treturn 0;
+\n}    ]]></string>
+    <string name="nestedifelsec"><![CDATA[\nOUTPUT:\n
+\nenter a number:4
+\nnumber is not equal to 10, 50 or 100
+\nenter a number:50
+\nnumber is equal to 50]]></string>
+    <string name="elseifa"><![CDATA[\n->\t\t\tThis ladder helps user decide among multiple statements.\n->\t\t\tIf the statements are executed from top to bottom as soon as one of the conditions controlling the if is executed and the rest of the ladder is bypassed.If none of the conditions is true then the final else statement will be executed.\n\nif(condition1)
+\n\t\t\tstatement1;
+\nelse if(condition2)
+\n\t\t\tstatement 2;
+\nelse if(condition3)
+\n\t\t\tstatement n;
+\nelse
+\n\t\t\tdefault statement.
+\nstatement-x;]]></string>
+    <string name="switchstatements"><![CDATA[\n->\t\t\tIf for suppose we have more than one valid choices to choose from then we canuse switch statement in place of if statements.\n\nswitch(expression)
+    \n{
+    \n\t\t\tcase value-1
+    \n\t\t\t\t\t\tblock-1
+    \n\t\t\t\t\t\tbreak;
+    \n\t\t\tcase value-2
+    \n\t\t\t\t\t\tblock-2
+    \n\t\t\t\t\t\tbreak;
+    \n\t\t\t\t\t\t--------
+    \n\t\t\t\t\t\t--------
+    \n\t\t\tdefault:
+    \n\t\t\t\t\t\tdefault block;
+    \n\t\t\t\t\t\tbreak;
+    \n}
+    \nstatement–x;
+    \n\n\nIn case of
+    \nif(cond1)
+    \n{
+    \n\t\t\tstatement-1
+    \n}
+    \nif (cond2)
+    \n{
+    \n\t\t\tstatement 2
+    \n}\n\n\n/* program to implement switch */
+    \n#include
+\nmain()\n{
+    \nint marks,index;
+    \nchar grade[10];
+    \nprintf(“Enter your marks”);
+    \nscanf(“%d”,&marks);
+    \nindex=marks/10;
+    \nswitch(index)
+    \n{
+    \n\t\t\tcase 10 :
+    \n\t\t\tcase 9:
+    \n\t\t\tcase 8:
+    \n\t\t\tcase 7:
+    \n\t\t\tcase 6: grade=”first”;
+    \n\t\t\t\t\t\tbreak;
+    \n\t\t\tcase 5 : grade=”second”;
+    \n\t\t\t\t\t\tbreak;
+    \n\t\t\tcase 4 : grade=”third”;
+    \n\t\t\t\t\t\tbreak;
+    \n\t\t\tdefault : grade =”fail”;
+    \n\t\t\t\t\t\tbreak;
+    \n}
+    \nprintf(“%s”,grade);
+\n}]]></string>
+    <string name="loop"><![CDATA[\n->\t\t\tSome times we require a set of statements to be executed repeatedly until a condition is met.\nWe have two types of looping structures. One in which condition is tested beforeentering the statement block called entry control.
+The other in which condition is checked at exit called exit controlled loop.]]></string>
+
+    <string name="whileloopa"><![CDATA[\n->\t\t\tIt is an entry controlled loop. \n->The condition is evaluated and if it is true then bodyof loop is executed. \n->\t\t\tAfter execution of body the condition is once again evaluated and if is true body is executed once again. This goes on until test condition becomes false.\n
+\n/* program for while */
+]]></string>
+    <string name="whileloopb"><![CDATA[
+\n#include<stdio.h>
+\nint main()
+\n{
+\n\t\t\tint i=1;
+\n\t\t\twhile(i<=10){
+\n\t\t\t\t\t\tprintf(“%d "\\n"”,i);
+\n\t\t\t\t\t\ti++;
+\n\t\t\t}
+\n\t\t\treturn 0;
+\n}    ]]></string>
+    <string name="whileloopc"><![CDATA[\nOUTPUT:\n
+\n1
+\n2
+\n3
+\n4
+\n5
+\n6
+\n7
+\n8
+\n9
+\n10]]></string>
+    <string name="dowhileloopa"><![CDATA[\n->\t\t\tThe while loop does not allow body to be executed if test condition is false. \n->\t\t\tThe
+do while is an exit controlled loop and its body is executed at least once.\n\ndo
+\n{
+\nbody
+\n}while(test condition)\n\n/* printing multiplication table */
+\n]]></string>
+    <string name="dowhileloopb"><![CDATA[#include<stdio.h>
+\nint main(){
+\n\t\t\tint i=1;
+\n\t\t\tdo{
+\n\t\t\t\t\t\tprintf(“%d "\\n"”,i);
+\n\t\t\t\t\t\ti++;
+\n\t\t\t}while(i<=10);
+\n\t\t\treturn 0;
+\n}    ]]></string>
+    <string name="dowhileloopc"><![CDATA[\nOUTPUT:\n
+\n1
+\n2
+\n3
+\n4
+\n5
+\n6
+\n7
+\n8
+\n9
+\n10]]></string>
+    <string name="forloopa"><![CDATA[\n->\t\t\tIt is also an entry control loop that provides a more concise structure\n\nfor(initialization; test control; increment)
+\n{
+\n\t\t\tbody of loop
+\n}
+\n\n\n/* program of for loop */
+]]></string>
+    <string name="forloopb"><![CDATA[\n#include<stdio.h>
+\nint main(){
+\n\t\t\tint i=0;
+\n\t\t\tfor(i=1;i<=10;i++){
+\n\t\t\t\t\t\tprintf(“%d "\\n"”,i);
+\n\t\t\t}
+\n\t\t\treturn 0;
+\n}  ]]></string>
+    <string name="forloopc"><![CDATA[\nOUTPUT:\n
+\n1
+\n2
+\n3
+\n4
+\n5
+\n6
+\n7
+\n8
+\n9
+\n10]]></string>
+    <string name="continuestatementa"><![CDATA[ \n->\t\t\tExecuting a
+continue starts the next iteration of the smallest enclosing do, while or for statement
+immediately. \n->\t\t\tThe use of continue is largely restricted to the top of loops, where a immediately. The use of continue is largely restricted to the top of loops, where a decision has to be made whether or not to execute the rest of the body of the loop. \n\nPROGRAM:\n]]></string>
+    <string name="continuestatementb"><![CDATA[#include<stdio.h>
+\nint main(){
+\n\t\t\tint i=1;
+\n\t\t\tfor(i=1;i<=10;i++){
+\n\t\t\t\t\t\tif(i==5){
+\n\t\t\t\t\t\tcontinue;
+\n\t\t\t}
+\n\t\t\tprintf(“%d "\\n"”,i);
+\n\t\t\t}
+\n\t\t\treturn 0;
+\n} ]]></string>
+    <string name="continuestatementc"><![CDATA[\nOUTPUT:\n
+\n1
+\n2
+\n3
+\n4
+\n6
+\n7
+\n8
+\n9
+\n10
+]]></string>
+    <string name="bstatementa"><![CDATA[\n->\t\t\tThe break is a keyword in C which is used to bring the program control out of the loop. \n->\t\t\tThe break statement is used inside loops or switch statement. The break statement breaks the loop one by one, i.e., in the case of nested loops, it breaks the inner loop first and then proceeds to outer loops. \n->\t\t\tThe break statement in C can be used in the following two scenarios:
+
+\n->\t\tWith switch case
+\n->\t\tWith loop\n\nPROGRAM:\n]]></string>
+    <string name="bstatementb"><![CDATA[ #include<stdio.h>
+\n#include<stdlib.h>
+\nvoid main ()
+\n{
+    \n\t\t\tint i;
+    \n\t\t\tfor(i = 0; i<10; i++)
+    \n\t\t\t{
+        \n\t\t\t\t\t\tprintf(“%d ”,i);
+        \n\t\t\t\t\t\tif(i == 5)
+        \n\t\t\t\t\t\tbreak;
+    \n\t\t\t}
+    \n\t\t\tprintf(“came outside of loop i = %d”,i);
+
+\n}  ]]></string>
+    <string name="bstatementc"><![CDATA[\nOUTPUT:
+
+\n0 1 2 3 4 5 came outside of loop i = 5
+]]></string>
+
+    <string name="gotostatementa"><![CDATA[\n->\t\t\tThe goto statement is a jump statement which is sometimes also referred to as unconditional jump statement. \n->\t\t\tThe goto statement can be used to jump from anywhere to anywhere within a function.\n\ngoto label;\n.  \n.  \n.  \nlabel:\n\n\(or)\n\nlabel:\n.\n.\n.\n goto label;\n\nPROGRAM:]]></string>
+    <string name="gotostatementb"><![CDATA[\n#include <stdio.h>
+\nint main()
+\n{
+  \n\t\t\tint num,i=1;
+  \n\t\t\tprintf(“Enter the number whose table you want to print :”);
+  \n\t\t\tscanf(“%d”,&num);
+  \n\t\t\ttable:
+  \n\t\t\tprintf(“%d x %d = %d"\\n"”,num,i,num*i);
+  \n\t\t\ti++;
+  \n\t\t\tif(i<=10)
+  \n\t\t\tgoto table;
+\n}  ]]></string>
+    <string name="gotostatementc"><![CDATA[\nOUTPUT:\n
+\nEnter the number whose table you want to print : 10
+\n10 x 1 = 10
+\n10 x 2 = 20
+\n10 x 3 = 30
+\n10 x 4 = 40
+\n10 x 5 = 50
+\n10 x 6 = 60
+\n10 x 7 = 70
+\n10 x 8 = 80
+\n10 x 9 = 90
+\n10 x 10 = 100]]></string>
+
+    <string name="functionsa"><![CDATA[\n->\t\t\tA function is a block of code that performs a specific task.\n->\t\t\twe can divide a large program into the basic building blocks known as function.\n->\t\t\tWe can call C functions any number of times in a program and from any place in a program\n\nsyntax of creating function:\n\n
+return_type function_name(data_type parameter..)\n{ \n
+//code to be executed  \n
+}
+]]></string>
+    <string name="functionsb"><![CDATA[\n->\t\t\tA function depending an whether the arguments are present or not and whether a value is returned or not, may belong to one of following categories\n
+1.Function with no return values, no arguments
+\n\t2.Functions with arguments, no return values
+\n\t3.Functions with arguments and return values
+\n\t4.Functions with no arguments and return values.
+\n\n\t1.\t\tIn this category, the function has no arguments. It does not receive any data from the calling function. Similarly, it doesn’t return any value. The calling function doesn’t receive any data from the called function. So, there is no communication between calling and called functions.\n
+\n\t2.\t\tIn this category, function has some arguments . it receives data from the calling function, but it doesn’t return a value to the calling function. The calling function doesn’t receive any data from the called function. So, it is one way data communication between called and calling functions.
+\n\nEg: Printing n Natural numbers]]></string>
+    <string name="functionsc"><![CDATA[\n#include< stdio.h>\n
+#include< conio.h>\n
+void nat( int);\n
+void main()\n
+{
+  \n\t\t\tint n;
+  \n\t\t\tclrscr();
+  \n\t\t\tprintf(“"\\n" Enter n value:”);
+  \n\t\t\tscanf(“%d”,&n);
+  \n\t\t\tnat(n);
+  \n\t\t\tgetch();
+\n}
+
+\nvoid nat(int n)\n
+{
+  \n\t\t\tint i;
+  \n\t\t\tfor(i=1;i<=n;i++)
+  \n\t\t\tprintf(“%d\t”,i);
+\n}\n]]></string>
+    <string name="functionsd"><![CDATA[OUTPUT:
+\nEnter n value: 5
+\n1 2 3 4 5]]></string>
+    <string name="functionse"><![CDATA[\n\t3.\t\tIn this category, functions has some arguments and it receives data from the calling function. Simillarly, it returns a value to the calling function. The calling function receives data from the called function. So, it is two-way data communication between calling and called functions.\n\nProgram to find factorial of a number.]]></string>
+    <string name="functionsf"><![CDATA[\nPROGRAM:\n#include< stdio.h>
+\n#include<conio.h>
+\nint fact(int);
+\nvoid main()
+\n{
+  \n\t\t\tint n;
+  \n\t\t\tclrscr();
+  \n\t\t\tprintf(“"\\n" Enter n:”);
+  \n\t\t\tscanf(“%d”,&n);
+  \n\t\t\tprintf(“"\\n" Factorial of the number : %d”, fact(n));
+  \n\t\t\tgetch();
+\n}
+
+\nint fact(int n)
+\n{
+  \n\t\t\tint i,f;
+  \n\t\t\tfor(i=1,f=1;i<=n;i++)
+  \n\t\t\tf=f*i;
+  \n\t\t\treturn(f);
+\n}]]></string>
+    <string name="functionsg"><![CDATA[\nOUTPUT:
+\nEnter n: 5
+\nFactorial of the number : 120\n]]></string>
+    <string name="functionsh"><![CDATA[\n\t4.\t\tIn this category, the functions has no arguments and it doesn’t receive any data from the calling function, but it returns a value to the calling function. The calling function receives data from the called function. So, it is one way data communication between calling and called functions.
+]]></string>
+    <string name="functionsi"><![CDATA[\nPROGRAM:\n#include< stdio.h>
+\n#include< conio.h>
+\nint sum();
+nvoid main()
+\n{
+  \n\t\t\tint s;
+  \n\t\t\tclrscr();
+  \n\t\t\tprintf(“"\\n" Enter number of  elements to be added :”);
+  \n\t\t\ts=sum();
+  \n\t\t\tprintf(“"\\n" Sum of the elements :%d”,p);
+  \n\t\t\tgetch();
+\n}\n
+
+int sum()
+\n{
+  \n\t\t\tint a[20], i, s=0,n;
+  \n\t\t\tscanf(“%d”,&n);
+  \n\t\t\tprintf(“\n Enter the elements:”);
+  \n\t\t\tfor(i=0;i< n; i++)
+  \n\t\t\tscanf(“%d”,& a[i]);
+  \n\t\t\tfor(i=0;i< n; i++)
+  \n\t\t\ts=s+a[i];
+  \n\t\t\treturn s;
+\n}]]></string>
+    <string name="functionsj"><![CDATA[\nOUTPUT:
+\nEnter number of  elements to be added :5
+\nSum of the elements :15]]></string>
+
+    <string name="parameter1"><![CDATA[\n->\t\t\tA Parameter is the symbolic name for "data" that goes into a function. There are two ways to pass parameters in C: Pass by Value, Pass by Reference.\n\nPASS BY VALUE:\n\n->\t\t\tPass by Value, means that a copy of the data is made and stored by way of the name of the parameter. Any changes to the parameter have NO affect on data in the calling function.\n\nPROGRAM:]]></string>
+
+    <string name="parameter2"><![CDATA[\n#include <stdio.h>
+\nvoid swap(int , int); //prototype of the function
+\nint main()
+\n{
+    \n\t\t\tint a = 10;
+    \n\t\t\tint b = 20;
+    \n\t\t\tprintf(“Before swapping the values in main a = %d, b = %d"\\n"”,a,b);
+    \n\t\t\tswap(a,b);
+    \n\t\t\tprintf(“After swapping values in main a = %d, b = %d"\\n"”,a,b);
+\n}
+\nvoid swap (int a, int b)
+\n{
+    \n\t\t\tint temp;
+    \n\t\t\ttemp = a;
+    \n\t\t\ta=b;
+    \n\t\t\tb=temp;
+    \n\t\t\tprintf(“After swapping values in function a = %d, b = %d\n”,a,b);
+\n}]]></string>
+
+    <string name="parameter3"><![CDATA[\nOUTPUT:
+\nBefore swapping the values in main a = 10, b = 20
+\nAfter swapping values in function a = 20, b = 10
+\nAfter swapping values in main a = 10, b = 20   ]]></string>
+    <string name="parameter4"><![CDATA[\n\nPASS BY REFERENCE:\n
+\n->\t\t\tA reference parameter "refers" to the original data in the calling function. Thus any changes made to the parameter are ALSO MADE TO THE ORIGINAL variable.\n\nPROGRAM:
+]]></string>
+    <string name="parameter5"><![CDATA[#include<stdio.h>
+\nvoid change(int *num)
+\n {
+    \n\t\t\tprintf(“Before adding value inside function num=%d "\\n"”,*num);
+    \n\t\t\t(*num) += 100;
+    \n\t\t\tprintf(“After adding value inside function num=%d "\\n"”, *num);
+\n}
+\nint main()
+\n {
+    \n\t\t\tint x=100;
+    \n\t\t\tprintf(“Before function call x=%d "\\n"”, x);
+    \n\t\t\tchange(&x);//passing reference in function
+    \n\t\t\tprintf(“After function call x=%d "\\n"”, x);
+\nreturn 0;
+\n}    ]]></string>
+    <string name="parameter6"><![CDATA[\nOUTPUT:
+\nBefore function call x=100
+\nBefore adding value inside function num=100
+\nAfter adding value inside function num=200
+\nAfter function call x=200]]></string>
+    <string name="scoperules1"><![CDATA[\n->\t\t\tVariables defined within a function (including main) are local to this function and no other function has direct access to them. The only way to pass variables to function is as parameters. The only way to pass (a single) variable back to the calling function is via the return statement.\n\nEXAMPLE  :]]></string>
+    <string name="scoperules2"><![CDATA[#include <stdio.h>\n
+int s;\n
+int main ()\n
+{
+   \n\t\t\tint a = 15;
+   \n\t\t\tint b = 20;
+   \n\t\t\ts = a+b;
+   \n\t\t\tprintf (“a = %d\n b = %d\n s = %d"\\n"”, a, b, s);
+   \n\t\t\treturn 0;]]></string>
+    <string name="scoperules3"><![CDATA[\nOUTPUT:\na = 15
+\nb = 20
+\ns = 35]]></string>
+    <string name="storageclasses1"><![CDATA[\n->\t\t\tStorage classes in C are used to determine the lifetime, visibility, memory location, and initial value of a variable. There are four types of storage classes in C.
+
+\n1.Automatic
+\n2.External
+\n3.Static
+\n4.Register\n\n1.AUTOMATIC:\n\n->\t\t\tAutomatic variables are allocated memory automatically at runtime.
+\n->\t\t\tThe visibility of the automatic variables is limited to the block in which they are defined.
+\n->\t\t\tThe scope of the automatic variables is limited to the block in which they are defined.
+\n->\t\t\tThe automatic variables are initialized to garbage by default.
+
+\nThe keyword used for defining automatic variables is auto.
+\n\nEXAMPLE:]]></string>
+    <string name="storageclasses2"><![CDATA[#include <stdio.h>
+\nint main()
+\n{
+\n\t\t\tint a; //auto
+\n\t\t\tchar b;
+\n\t\t\tfloat c;
+\n\t\t\tprintf(“%d %c %f”,a,b,c); // printing initial default value of automatic variables a, b, and c.
+\n\t\t\treturn 0;
+\n}  ]]></string>
+    <string name="storageclasses3"><![CDATA[\nOUTPUT:\ngarbage garbage garbage\n ]]></string>
+    <string name="storageclasses4"><![CDATA[2.STATIC:\n
+\n->\t\t\tThe variables defined as static specifier can hold their value between the multiple function calls.
+\n->\t\t\tStatic local variables are visible only to the function or the block in which they are defined.
+\n->\t\t\tA same static variable can be declared many times but can be assigned at only one time.
+\n->\t\t\tThe keyword used to define static variable is static.
+\n\nEXAMPLE:]]></string>
+    <string name="storageclasses5"><![CDATA[#include<stdio.h>
+\nstatic char c;
+\nstatic int i;
+\nstatic float f;
+\nstatic char s[100];
+\nvoid main ()
+\n{
+\n\t\t\tprintf(“%d %d %f %s”,c,i,f); // the initial default value of c, i, and f will be printed.
+\n}  ]]></string>
+    <string name="storageclasses6"><![CDATA[\nOUTPUT:
+
+\n0 0 0.000000 (null)]]></string>
+    <string name="storageclasses7"><![CDATA[
+\n3.REGISTER\n\n
+The variables defined as the register is allocated the memory into the CPU registers depending upon the size of the memory remaining in the CPU.
+\n->\t\t\tWe can not dereference the register variables, i.e., we can not use &operator for the register variable.
+\n->\t\t\tThe register keyword is used for the variable which should be stored in the CPU register. However, it is compiler?s choice whether or not; the variables can be stored in the register.
+\n->\t\t\tWe can store pointers into the register, i.e., a register can store the address of a variable.
+\n\nEXAMPLE:]]></string>
+    <string name="storageclasses8"><![CDATA[#include <stdio.h>
+\nint main()
+\n{
+\n\t\t\tregister int a; // variable a is allocated memory in the CPU register. The initial default value of a is 0.
+\n\t\t\tprintf(“%d”,a);
+\n}  ]]></string>
+    <string name="storageclasses9"><![CDATA[\nOUTPUT:
+
+\n0]]></string>
+    <string name="storageclasses10"><![CDATA[\n4.EXTERNAL\n
+\n->\t\t\tThe external storage class is used to tell the compiler that the variable defined as extern is declared with an external linkage elsewhere in the program.
+\n->\t\t\tThe variables declared as extern are not allocated any memory. It is only declaration and intended to specify that the variable is declared elsewhere in the program.
+\n->\t\t\tWe can only initialize the extern variable globally, i.e., we can not initialize the external variable within any block or method.
+\n->\t\t\tAn external variable can be declared many times but can be initialized at only once.
+\n->\t\t\tIf a variable is declared as external then the compiler searches for that variable to be initialized somewhere in the program which may be extern or static. If it is not, then the compiler will show an error.\n\nEXAMPLE:]]></string>
+    <string name="storageclasses11"><![CDATA[#include <stdio.h>
+\nint a;
+\nint main()
+\n{
+\n\t\t\textern int a; // variable a is defined globally, the memory will not be allocated to a
+\n\t\t\tprintf(“%d”,a);
+\n}
+
+]]></string>
+    <string name="storageclasses12"><![CDATA[\nOUTPUT:
+
+\n0]]></string>
+    <string name="preprocessor"><![CDATA[\n->\t\t\tThe C preprocessor is a micro processor that is used by compiler to transform your code before compilation. It is called micro preprocessor because it allows us to add macros.\nNote: \nProprocessor direcives are executed before compilation.
+\n->\t\t\tAll preprocessor directives starts with hash # symbol.]]></string>
+    <string name="preprocessor1"><![CDATA[->\t\t\tThese are some processor directives\n#include
+\n#define
+\n#undef
+\n#ifdef
+\n#ifndef
+\n#if
+\n#else
+\n#elif
+\n#endif
+\n#error
+\n#pragma]]></string>
+    <string name="structuredefinition"><![CDATA[\n->\t\t\tA Structure is a collection of elements of dissimilar data types.  Structures provide the ability to create user defined data types and also to represent real world data.  
+\n->\t\t\tSuppose if we want to store the information about a book, we need to store its name (String), its price (float)  and number of pages in it(int).
+\n->\t\t\t We have to store the above three items as a group then we can use a structure variable which collectively store the information as a book.  
+\n->\t\t\tStructures can be used to store the real world data like employee, student, person etc.
+\n]]></string>
+
+    <string name="structuredefinition2"><![CDATA[\n->\t\t\tThe declaration of the Structure starts with a Key Word called Struct and ends with  ; .he Structure elements can be any built in types. 
+
+\nstruct <Structure name> 
+\n{  
+\n\t\t\tStructure element 1;  
+\n\t\t\tStructure element 2;  
+ \n\t\t\t-   
+ \n\t\t\t-  
+ \n\t\t\t-  
+\n\t\t\tStructure element n;
+ \n}; 
+]]></string>
+
+    <string name="structureinitialization"><![CDATA[\n->\t\t\tStructure Variables can also be initialised where they are declared.
+
+\n\nstruct emp
+\n{  
+\nint empno;  
+\nchar ename[20];  
+\nfloat sal;
+\n};
+\nstruct emp e1 = { 123,“Kumar”,5000.00};\n
+]]></string>
+
+    <string name="structureinitialization1"><![CDATA[\n->\t\t\tThere are two ways to access structure members:
+\n1.By . (member or dot operator)
+\n2.By -> (structure pointer operator)
+\n\nEXAMPLE:]]></string>
+
+    <string name="structureinitialization2"><![CDATA[\n#include<stdio.h>  
+
+\nmain()
+      \n{  
+\n\t\t\tstruct emp  
+\n\t\t\t{    
+\n\t\t\t\t\t\tint empno;
+  \n\t\t\t\t\t\tchar ename[20];
+  \n\t\t\t\t\t\tfloat sal;
+ \n\t\t\t};  
+\n\t\t\tstruct emp e;
+ \n\t\t\tprintf (“  Enter Employee number: "\\n"”);  
+\n\t\t\tscanf(“%d”,&e.empno);
+\n\t\t\tprintf (“  Enter Employee Name: "\\n"”);
+\n\t\t\tscanf(“%s”,&e.empname);
+\n\t\t\tprintf (“  Enter the Salary: "\\n"”);
+\n\t\t\tscanf(“%f”,&e.sal);
+\n\t\t\tprintf (“ Employee No = %d”, e.empno);  
+\n\t\t\tprintf (“"\\n" Emp Name = %s”, e.empname);
+\n\t\t\tprintf (“"\\n" Salary  = %f”, e.sal);  
+  \n}]]></string>
+    <string name="nestedstructures1"><![CDATA[\n->\t\t\tOne Structure can be enclosed in another Structure.    The Structure which is to be nested must be declared before it is used.  We can nest a Structure  within a Structure, which is in still another Structure and so on.  Nesting of Structure can be done to any no of levels.
+\n->\t\t\t The elements of the nested Structure are accessed by using one more dot(.) operator.
+
+\n\nEXAMPLE:-]]></string>
+    <string name="nestedstructures2"><![CDATA[\n  struct date  
+\n{    
+ \n\t\t\tint dd, mm, yy;
+ \n };
+ \n struct student    
+\n{    
+\n\t\t\tint rno;
+   \n\t\t\tchar sname[15];
+   \n\t\t\tstruct date dob;  
+ \n};  
+ \nstruct student s;]]></string>
+    <string name="arraystructures1"><![CDATA[\n->\t\t\tTo store more number of Structures, we can use array of Structures.  In array of Structures all elements of the array are stored in adjacent memory location.
+
+
+\n\nEXAMPLE:\n]]></string>
+    <string name="arraystructures2"><![CDATA[#include<stdio.h>  
+\n#include <string.h>    
+\nstruct student\n{    
+\n\t\t\tint rollno;    
+\n\t\t\tchar name[10];    
+\n};    
+\nint main()
+\n{    
+\nint i;    
+\nstruct student st[5];    
+\nprintf(“Enter Records of 5 students”);    
+\nfor(i=0;i<5;i++){    
+\n\t\t\tprintf(“"\\n"Enter Rollno:”);    
+\n\t\t\tscanf(“%d”,&st[i].rollno);    
+\n\t\t\tprintf(“"\\n"Enter Name:”);    
+\n\t\t\tscanf(“%s”,&st[i].name);    
+\n}    
+\nprintf(“"\\n"Student Information List:”);    
+\nfor(i=0;i<5;i++)
+\n{    
+\n\t\t\tprintf(“"\\n"Rollno:%d, Name:%s”,st[i].rollno,st[i].name);    
+\n}    
+ \nreturn 0;    
+\n}    ]]></string>
+    <string name="arraystructures3"><![CDATA[\nOUTPUT:
+
+\nEnter Records of 5 students
+\nEnter Rollno:1
+\nEnter Name:Sonoo
+\nEnter Rollno:2
+\nEnter Name:Ratan
+\nEnter Rollno:3
+\nEnter Name:Vimal
+\nEnter Rollno:4
+\nEnter Name:James
+\nEnter Rollno:5
+\nEnter Name:Sarfraz
+
+\n\nStudent Information List:
+\nRollno:1, Name:Sonoo
+\nRollno:2, Name:Ratan
+\nRollno:3, Name:Vimal
+\nRollno:4, Name:James
+\nRollno:5, Name:Sarfraz]]></string>
+    <string name="structuresfunctions1"><![CDATA[\n->\t\t\twe can pass structures as arguments to a function. In fact, we can pass, individual members, structure variables, a pointer to structures etc to the function. Similarly, functions can return either an individual member or structures variable or pointer to the structure.
+
+
+\n\nEXAMPLE:
+]]></string>
+    <string name="structuresfunctions2"><![CDATA[#include<stdio.h>
+
+\nstruct student
+\n{
+   \n\t\t\tchar name[20];
+   \n\t\t\tint roll_no;
+   \n\t\t\tint marks;
+\n};
+
+\nvoid print_struct(char name[], int roll_no, int marks);
+
+\nint main()
+\n{
+   \n\t\t\tstruct student stu = {“Tim”, 1, 78};
+   \n\t\t\tprint_struct(stu.name, stu.roll_no, stu.marks);
+   \n\t\t\treturn 0;
+\n}
+
+\nvoid print_struct(char name[], int roll_no, int marks)
+\n{
+   \n\t\t\tprintf(“Name: %s"\\n"”, name);
+   \n\t\t\tprintf(“Roll no: %d"\\n"”, roll_no);
+   \n\t\t\tprintf(“Marks: %d"\\n"”, marks);
+   \n\t\t\tprintf(“"\\n"”);
+\n}]]></string>
+    <string name="structuresfunctions3"><![CDATA[\nOUTPUT:
+
+\nName: Tim
+\nRoll no: 1
+\nMarks: 78]]></string>
+    <string name="structurespointers1"><![CDATA[\n->\t\t\tA Pointer pointing to a struct is called Structure Poniter.  A Structure Pointer can be used to store the address of a Structure Variable.  An arrow operator (->) is used to refer the Structure elements when a pointer is used with a Structure.
+
+\n\nEXAMPLE:
+]]></string>
+    <string name="structurespointers2"><![CDATA[#include <stdio.h>
+\n#include <stdlib.h>
+\nstruct person
+\n {
+  \n\t\t\tint age;
+  \n\t\t\tfloat weight;
+  \n\t\t\tchar name[30];
+\n};
+
+\nint main()
+\n{
+  \n\t\t\tstruct person *ptr;
+  \n\t\t\tint i, n;
+
+  \n\t\t\tprintf(“Enter the number of persons: ”);
+  \n\t\t\tscanf(“%d”, &n);
+
+  \n\t\t\tptr = (struct person*) malloc(n * sizeof(struct person));
+
+  \n\t\t\tfor(i = 0; i < n; ++i)
+  \n\t\t\t{
+      \n\t\t\t\t\t\tprintf(“Enter first name and age respectively: ”);
+
+      \n\t\t\t\t\t\tscanf(“%s %d”, (ptr+i)->name, &(ptr+i)->age);
+  \n\t\t\t}
+
+  \n\t\t\tprintf(“Displaying Information:"\\n"”);
+  \n\t\t\tfor(i = 0; i < n; ++i)
+      \n\t\t\t\t\t\tprintf(“Name: %s\tAge: %d"\\n"”, (ptr+i)->name, (ptr+i)->age);
+
+  \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="structurespointers3"><![CDATA[\nOUTPUT:
+
+\nEnter the number of persons:  2
+\nEnter first name and age respectively:  Harry 24
+\nEnter first name and age respectively:  Gary 32
+\nDisplaying Information:
+\nName: Harry\t\t\t\t\t\t	Age: 24
+\nName: Gary\t\t\t\t\t\t\t	Age: 32]]></string>
+    <string name="unions1"><![CDATA[\n->\t\t\tUnion, similar to Structures, are collection of elements of different data types.
+
+\n->\t\t\tHowever, the members within a union all share the same storage area within the computer’s memory, whereas each member within a Structure is assigned its own unique Storage area
+
+
+\n\nEXAMPLE:]]></string>
+    <string name="unions2"><![CDATA[\nmain()
+\n{  
+\n\t\t\tunion example
+
+\n\t\t\t{  
+\n\t\t\t\t\t\tint i;  
+\n\t\t\t\t\t\tchar ch[2];
+\n\t\t\t};  
+\n\t\t\tunion example u;
+
+\n\t\t\tu.i = 412;
+
+\n\t\t\tprint(“"\\n" u.i = %d”,u.i);
+\n\t\t\tprint(“"\\n" u.ch[0] = %d”,u.ch[0]);
+\n\t\t\tprint(“"\\n" u.ch[1] = %d”,u.ch[1]);
+
+\n\t\t\tu.ch[0] = 50; /* Assign a new value */
+
+\n\t\t\tprint(“"\\n" u.i = %d”,u.i);
+\n\t\t\tprint(“"\\n" u.ch[0] = %d”,u.ch[0]);
+\n\t\t\tprint(“"\\n" u.ch[1] = %d”,u.ch[1]);
+\n} ]]></string>
+    <string name="unions3"><![CDATA[\nOUTPUT:\n
+
+\n u.i  = 512 \n u.ch[0] = 0 \n u.ch[1] =2\n u.i  = 562  \n u.ch[0] = 50  \n u.ch[1] =2]]></string>
+    <string name="enumeratedtypes1"><![CDATA[\n->\t\t\tIn computer programming, an enumerated type (also called enumeration or enum) is a data type consisting of a set of named values called elements, members or enumerators of the type.
+\n->\t\t\tThe enumerator names are usually identifiers that behave as constants in the language.
+\n->\t\t\t A variable that has been declared as having an enumerated type can be assigned any of the enumerators as a value.
+
+\n->\t\t\tEnumerated data type variables can only assume values which have been previously declared.  
+\t\t\tenum month { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
+\t\t\tenum month this_month;
+\t\t\tthis_month = feb;
+
+\n\nPROGRAM:\n]]></string>
+    <string name="enumeratedtypes2"><![CDATA[#include<stdio.h>
+\nenum week{Mon=10, Tue, Wed, Thur, Fri=10, Sat=16, Sun};
+\nenum day{Mond, Tues, Wedn, Thurs, Frid=18, Satu=11, Sund};
+\nint main() {
+  \n\t\t\tprintf(“The value of enum week: %d\t%d\t%d\t%d\t%d\t%d\t%d"\\n""\\n"”,Mon , Tue, Wed, Thur, Fri, Sat, Sun);
+  \n\t\t\tprintf(“The default value of enum day: %d\t%d\t%d\t%d\t%d\t%d\t%d”,Mond , Tues, Wedn, Thurs, Frid, Satu, Sund);
+  \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="enumeratedtypes3"><![CDATA[\nOUTPUT:\n
+
+\nThe value of enum week: \t\t\t10\t\t\t	11\t\t\t	12\t\t\t	13	\t\t\t10\t\t\t	16\t\t\t	17
+\nThe default value of enum day: \t\t\t0\t\t\t	1	\t\t\t2	\t\t\t3\t\t\t	18\t\t\t	11\t\t\t	12]]></string>
+
+    <string name="typedef1"><![CDATA[\n->\t\t\tThe typedef is a keyword used in C programming to provide some meaningful names to the already existing variable in the C program.
+\n->\t\t\t It behaves similarly as we define the alias for the commands.
+\n->\t\t\t In short, we can say that this keyword is used to redefine the name of an already existing variable.
+
+
+\n\nEXAMPLE:\n]]></string>
+    <string name="typedef2"><![CDATA[#include <stdio.h>
+\nint main()
+\n{
+\n\t\t\ttypedef unsigned int unit;
+\n\t\t\tunit i,j;
+\n\t\t\ti=10;
+\n\t\t\tj=20;
+\n\t\t\tprintf(“Value of i is :%d”,i);
+\n\t\t\tprintf(“"\\n"Value of j is :%d”,j);
+\n\t\t\treturn 0;
+\n}  ]]></string>
+    <string name="typedef3"><![CDATA[\nOutput
+
+\nValue of i is :10
+\nValue of j is :20]]></string>
+    <string name="pointerdef1"><![CDATA[\n->\t\t\tThe pointer in C language is a variable which stores the address of another variable.\n->\t\t\t This variable can be of type int, char, array, function, or any other pointer.
+
+\n->\t\t\tThe pointer in c language can be declared using * (asterisk symbol). It is also known as indirection pointer used to dereference a pointer.
+
+
+\n->\t\t\tConsider the following example to define a pointer which stores the address of an integer.
+
+\nint n = 10;
+\nint* p = &n; // Variable p of type pointer is pointing to the address of the variable n of type integer.
+
+\n\nEXAMPLE\n]]></string>
+    <string name="pointerdef2"><![CDATA[#include<stdio.h>
+\nint main()
+\n{
+\n\t\t\tint number=50;
+\n\t\t\tint *p;
+\n\t\t\tp=&number;
+\n\t\t\tprintf(“Address of p variable is %x "\\n"”,p);
+\n\t\t\tprintf(“Value of p variable is %d "\\n"”,*p);
+\n\t\t\treturn 0; ]]></string>
+    <string name="pointerdef3"><![CDATA[\nOutput:\n
+
+\nAddress of p variable is fff4
+\nValue of p variable is 50]]></string>
+    <string name="pointersto1"><![CDATA[\n->\t\t\tA pointer to a pointer is a form of multiple indirection, or a chain of pointers.
+\n->\t\t\tNormally, a pointer contains the address of a variable. When we define a pointer to a pointer, the first pointer contains the address of the second pointer, which points to the location that contains the actual value as shown below.]]></string>
+    <string name="pointersto2"><![CDATA[\nEXAMPLE\n#include <stdio.h>
+
+\nint main () \n{
+
+   \n\t\t\tint  var;
+   \n\t\t\tint  *ptr;
+   \n\t\t\tint  **pptr;
+
+   \n\t\t\tvar = 3000;
+
+   \n\t\t\tptr = &var;
+
+   \n\t\t\tpptr = &ptr;
+
+   \n\t\t\tprintf(“Value of var = %d"\\n"”, var );
+   \n\t\t\tprintf(“Value available at *ptr = %d"\\n"”, *ptr );
+   \n\t\t\tprintf(“Value available at **pptr = %d"\\n"”, **pptr);
+
+   \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="pointersto3"><![CDATA[\nOUTPUT:
+
+\nValue of var = 3000
+\nValue available at *ptr = 3000
+\nValue available at **pptr = 3000]]></string>
+    <string name="pointersarrays1"><![CDATA[\n->\t\t\tWhen an array is declared, elements of array are stored in contiguous locations. The address of the first element of an array is called its base address.
+\n->\t\t\tThe name of the array is called its base address.
+
+\n\nEXAMPLE:\n]]></string>
+    <string name="pointersarrays2"><![CDATA[#include <stdio.h>
+\nint main() {
+   \n\t\t\tint x[4];
+   \n\t\t\tint i;
+
+   \n\t\t\tfor(i = 0; i < 4; ++i) {
+      \n\t\t\t\t\t\tprintf(“&x[%d] = %p"\\n"”, i, &x[i]);
+   \n\t\t\t}
+
+   \n\t\t\tprintf(“Address of array x: %p”, x);
+
+   \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="pointersarrays3"><![CDATA[\nOutput:
+
+\n&x[0] = 1450734448
+\n&x[1] = 1450734452
+\n&x[2] = 1450734456
+\n&x[3] = 1450734460
+\nAddress of array x: 1450734448]]></string>
+    <string name="pointersarithmetic1"><![CDATA[\nPointer Arithmetic in C:
+
+\n->\t\t\tWe can perform arithmetic operations on the pointers like addition, subtraction, etc.
+\n->\t\t\tHowever, as we know that pointer contains the address, the result of an arithmetic operation performed on the pointer will also be a pointer if the other operand is of type integer. In pointer-from-pointer subtraction, the result will be an integer value.
+\n->\t\t\tFollowing arithmetic operations are possible on the pointer in C language:
+
+\n1.Increment
+\n2.Decrement
+\n3.Addition
+\n4.Subtraction
+\n5.Comparison
+
+\n\nEXAMPLE:\n]]></string>
+    <string name="pointersarithmetic2"><![CDATA[#include<stdio.h>  
+\nvoid main ()  
+\n{  
+   \n\t\t\tint arr[5] = {1, 2, 3, 4, 5};  
+   \n\t\t\tint *p = arr;  
+   \n\t\t\tint i;  
+   \n\t\t\tprintf(“printing array elements…"\\n"”);  
+   \n\t\t\tfor(i = 0; i< 5; i++)  
+   \n\t\t\t{  
+   \n\t\t\t\t\t\tprintf(“%d  ”,*(p+i));  
+   \n\t\t\t}  
+\n}  ]]></string>
+    <string name="pointersarithmetic3"><![CDATA[\nOUTPUT:\n
+
+\nprinting array elements…
+\n1  2  3  4  5]]></string>
+    <string name="malloc1"><![CDATA[\nDYNAMIC MEMORY ALLOCATION :\n
+\n->\t\t\tDynamic memory allocation uses predefined functions to allocate and release memory for data while the program is running.
+\n->\t\t\tIt effectively postpones the data definition ,but not the declaration to run time.
+\n->\t\t\tTo use dynamic memory allocation ,we use either standard data types or derived types .To access data in dynamic memory we need pointers.
+
+\n->\t\t\tDynamic memory allocation in c language is possible by 4 functions of stdlib.h header file.
+
+\n1.malloc()
+\n2.calloc()
+\n3.realloc()
+\n4.free()
+
+
+\n\nBLOCK MEMORY ALLOCATION(MALLOC) :\n
+\n->\t\t\tThe malloc function allocates a block of memory that contains the number of bytes specified in its parameter.
+\n->\t\t\tIt returns a void pointer to the first byte of the allocated memory. The allocated memory is not initialized.
+\nDECLARATION:
+\nvoid *malloc (size_t size);
+
+\n\nEXAMPLE:]]></string>
+    <string name="malloc2"><![CDATA[\n#include<stdio.h>
+\n#include<stdlib.h>
+\nint main(){
+  \n\t\t\tint n,i,*ptr,sum=0;
+    \n\t\t\tprintf(“Enter number of elements: ”);
+    \n\t\t\tscanf(“%d”,&n);
+    \n\t\t\tptr=(int*)malloc(n*sizeof(int));
+    \n\t\t\tif(ptr==NULL)
+    \n\t\t\t{
+        \n\t\t\t\t\t\tprintf(“Sorry! unable to allocate memory”);
+        \n\t\t\t\t\t\texit(0);
+    \n\t\t\t}
+    \n\t\t\tprintf(“Enter elements of array: ”);
+    \n\t\t\tfor(i=0;i<n;++i)
+    \n\t\t\t{
+        \n\t\t\t\t\t\tscanf("%d",ptr+i);
+        \n\t\t\t\t\t\tsum+=*(ptr+i);
+    \n\t\t\t}
+    \n\t\t\tprintf(“Sum=%d”,sum);
+    \n\t\t\tfree(ptr);
+\nreturn 0;
+\n}    ]]></string>
+    <string name="malloc3"><![CDATA[\nOUTPUT:\n
+
+\nEnter number of elements: 3
+\nEnter elements of array: 10
+\n10
+\n10
+\nSum=30]]></string>
+    <string name="malloc4"><![CDATA[\n\nCONTIGIOUS MEMORY ALLOCATION(calloc) :\n
+\n->\t\t\tCalloc is primarily used to allocate memory for arrys.It differs from malloc only in that it sets memory to null characters.
+\n->\t\t\tDECLARATION:
+\NVoid *calloc(size_t element_count, size_t element_size);
+\n->\t\t\tThe result is the same for both malloc and calloc.
+\n->\t\t\tcalloc returns the address of the first byte in the memory space allocated. If it is not successful calloc returns null pointer.
+
+\n\nEXAMPLE\n]]></string>
+    <string name="malloc5"><![CDATA[#include<stdio.h>
+\n#include<stdlib.h>
+\nint main(){
+ \n\t\t\tint n,i,*ptr,sum=0;
+    \n\t\t\tprintf(“Enter number of elements: ”);
+    \n\t\t\tscanf(“%d”,&n);
+    \n\t\t\tptr=(int*)calloc(n,sizeof(int));
+    \n\t\t\tif(ptr==NULL)
+    \n\t\t\t{
+        \n\t\t\t\t\t\tprintf(“Sorry! unable to allocate memory”);
+        \n\t\t\t\t\t\texit(0);
+    \n\t\t\t}
+    \n\t\t\tprintf(“Enter elements of array: ”);
+    \n\t\t\tfor(i=0;i<n;++i)
+    \n\t\t\t{
+        \n\t\t\t\t\t\tscanf(“%d”,ptr+i);
+        \n\t\t\t\t\t\tsum+=*(ptr+i);
+    \n\t\t\t}
+    \n\t\t\tprintf(“Sum=%d”,sum);
+    \n\t\t\tfree(ptr);
+\nreturn 0;
+\n}    ]]></string>
+    <string name="malloc6"><![CDATA[\nOUTPUT:\n
+\nEnter number of elements: 3
+\nEnter elements of array: 10
+\n10
+\n10
+\nSum=30
+]]></string>
+    <string name="malloc7"><![CDATA[\nREALLOCATION OF MEMORY(realloc):\n
+\n->\t\t\tThe realloc function can be highly inefficient and therefore should be used advisedly.
+\n->\t\t\tWhen given a pointer to a previously allocated block of memory realloc changes the size of the block by deleting or extending the memory at the end of the block.
+\n\nDECLARATION:
+\nVoid *realloc(void*ptr,size_t newsize);
+
+
+\n\nRELEASING MEMORY(free):
+\n->\t\t\tWhen memory locations allocated by malloc,calloc or realloc are no longer needed, they should be freed using the predefined function free.
+\n->\t\t\tIt is an error to free memory with a null pointer, a pointer to other than the first element of an allocated block, a pointer that is a different type then the pointer that allocated the memory, it is also a potential error to refer to memory after it has been released.
+\n\nDECLARATRION:
+\nVoid free(void *ptr);]]></string>
+    <string name="arrayofpointers1"><![CDATA[\n->\t\t\tJust like we can declare an array of int, float or char etc, we can also declare an array of pointers, here is the syntax to do the same.
+\n->\t\t\tSyntax: datatype *array_name[size];\nEXAMPLE:\nint *arrop[5];\n->\t\t\tHere arrop is an array of 5 integer pointers. It means that this array can hold the address of 5 integer variables. In other words, you can assign 5 pointer variables of type pointer to int to the elements of this array\n\nPROGRAM\n]]></string>
+    <string name="arrayofpointers2"><![CDATA[#include<stdio.h>\n#define SIZE 10\nint main()\n{\n\t\t\tint *arrop[3];\n\t\t\tint a = 10, b = 20, c = 50, i;\n\t\t\tarrop[0] = &a\n\t\t\tarrop[1] = &b;\n\t\t\tarrop[2] = &c;\n\t\t\tfor(i = 0; i < 3; i++)\n\t\t\t{\n\t\t\t\t\t\tprintf("Address = %d\t Value = %d\n", arrop[i], *arrop[i]);\n\t\t\t}\n\t\t\treturn 0;\n}]]></string>
+    <string name="arrayofpointers3"><![CDATA[\nOUTPUT:\n
+
+\n1
+\n2
+\n3
+\nAddress = 387130656 \t\t\t\t\t\t     Value = 10
+\nAddress = 387130660 \t\t\t\t\t\t     Value = 20
+\nAddress = 387130664  \t\t\t\t\t\t    Value = 50]]></string>
+
+    <string name="pointerstovoid1"><![CDATA[\n->\t\t\tThe void pointer in C is a pointer which is not associated with any data types.
+\n->\t\t\tIt points to some data location in the storage means points to the address of variables.
+\n->\t\t\tIt is also called general purpose pointer. In C, malloc() and calloc() functions return void * or generic pointers.
+
+\n->\t\t\tIt has some limitations −
+
+\n1) Pointer arithmetic is not possible with void pointer due to its concrete size.
+
+\n2) It can’t be used as dereferenced.
+
+\n\nEXAMPLE\n]]></string>
+    <string name="pointerstovoid2"><![CDATA[#include<stdlib.h>
+\nint main() {
+  \n\t\t\tint a = 7;
+  \n\t\t\tfloat b = 7.6;
+  \n\t\t\tvoid *p;
+  \n\t\t\tp = &a;
+  \n\t\t\tprintf(“Integer variable is = %d”, ( (int) p) );
+  \n\t\t\tp = &b;
+  \n\t\t\tprintf(“"\\n"Float variable is = %f”, ( (float) p) );
+  \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="pointerstovoid3"><![CDATA[\nOUTPUT:\n
+\nInteger variable is = 7
+\nFloat variable is = 7.600000]]></string>
+    <string name="pointerstofunctions1"><![CDATA[\n->\t\t\tParameter passing mechanism in ‘C’ is of two types.
+
+\n1.Call by Value \t\t\t\t\t\t 2.Call by Reference.
+
+\n\n1.CALL BY VALUE:\n->\t\t\tIn call by value method, the value of the actual parameters is copied into the formal parameters. In other words, we can say that the value of the variable is used in the function call in the call by value method.\n]]></string>
+    <string name="pointerstofunctions2"><![CDATA[\n#include<stdio.h>
+\nmain()  
+\n{
+\n\t\t\tint a,b;  
+\n\t\t\ta = 10;  
+\n\t\t\tb = 20;
+\n\t\t\tswap (&a, &b);  
+\n\t\t\tprintf(“After Swapping "\\n"”);  
+\n\t\t\tprintf(“a = %d \t b = %d”, a,b);
+\n}
+\nvoid swap(int *x, int *y)
+\n{ \n\t\t\tint temp;  
+\n\t\t\ttemp = *x;
+\n\t\t\t*x = *y;  
+\n\t\t\t*y = temp;
+\n} ]]></string>
+    <string name="pointerstofunctions3"><![CDATA[\nOUTPUT:
+\nAfter Swapping
+\na = 20\t\t\t\t\t\tb = 10]]></string>
+    <string name="pointerstofunctions4"><![CDATA[\n2.CALL BY REFERENCE:.\n
+
+\n->\t\t\tThe process of calling a function using pointers to pass the addresses of variables is known as Call by Reference.  
+
+ 
+
+\n->\t\t\tThe function which is called by reference can change the value of the variable used in the call.
+
+
+\n\n]]></string>
+    <string name="pointerstofunctions5"><![CDATA[#include <stdio.h>
+
+\nvoid swap(int *a, int *b);
+
+\nint main()
+\n{
+   \n\t\t\tint m = 10, n = 20;
+   \n\t\t\tprintf(“m = %d"\\n"”, m);
+   \n\t\t\tprintf(“n = %d"\\n""\\n"”, n);
+
+   \n\t\t\tswap(&m, &n);    
+   \n\t\t\tprintf(“After Swapping:"\\n""\\n"”);
+   \n\t\t\tprintf(“m = %d"\\n"”, m);
+   \n\t\t\tprintf(“n = %d”, n);
+   \n\t\t\treturn 0;
+\n}
+
+\nvoid swap(int *a, int *b)
+\n{
+   int temp;
+   \n\t\t\ttemp = *a;
+   \n\t\t\t*a = *b;
+   \n\t\t\t*b = temp;
+\n}]]></string>
+    <string name="pointerstofunctions6"><![CDATA[\nOUTPUT:
+\nm = 10
+\nn = 20
+\nAfter Swapping:
+\nm = 20
+\nn = 10]]></string>
+    <string name="cargs1"><![CDATA[\n->\t\t\tThe arguments passed from command line are called command line arguments.
+\n->\t\t\tThese arguments are handled by main() function.
+\n->\t\t\tTo support command line argument, you need to change the structure of main()
+\n\nEXAMPLE:\n]]></string>
+    <string name="cargs2"><![CDATA[#include <stdio.h>  
+\nvoid main(int argc, char *argv[] )  {  
+ 
+  \n\t\t\tprintf(“Program name is: %s"\\n"”, argv[0]);  
+ \n\t\t\tif(argc < 2){  
+     \n\t\t\t\t\t\tprintf(“No argument passed through command line"\\n"”);  
+  \n\t\t\t}  
+  \n\t\t\telse{  
+     \n\t\t\t\t\t\tprintf(“First argument is: %s"\\n"”, argv[1]);  
+  \n\t\t\t}  
+\n}
+]]></string>
+    <string name="cargs3"><![CDATA[\nOUTPUT:\n
+
+\nProgram name is: program
+\nFirst argument is: hello]]></string>
+    <string name="stringsconcepts1"><![CDATA[\n->\t\t\tThe string can be defined as the one-dimensional array of characters terminated by a null(\0) .
+\n->\t\t\tThe character array or the string is used to manipulate text such as word or sentences.
+\n->\t\t\tEach character in the array occupies one byte of memory, and the last character must always be 0.
+\n->\t\t\tThe termination character (\0) is important in a string since it is the only way to identify where the string ends.
+\n->\t\t\tWhen we define a string as char s[10], the character s[10] is implicitly initialized with the null in the memory.\nString can be initialized when declared as
+\n1. char city[g]= “NEW YORK”;
+\n2. char city[g]= {‘N’,’E’,’W’,’ ‘,’Y’,’O’,’R’,’K’,’/0’};
+
+\nEXAMPLE:
+\nchar c[] = “abcd”;\n
+]]></string>
+    <string name="stringsconcepts2"><![CDATA[\n\n#include <stdio.h>
+\nint main()
+\n{
+   \n\t\t\tchar name[20];
+   \n\t\t\tprintf(“Enter name: ”);
+   \n\t\t\tscanf(“%s”, name);
+   \n\t\t\tprintf(“Your name is %s.”, name);
+   \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="stringsconcepts3"><![CDATA[\nOUTPUT:\n
+\nEnter name: Dennis Ritchie
+\nYour name is Dennis.
+]]></string>
+    <string name="stringio1"><![CDATA[\n->\t\t\tC provides  two basic ways to read and write strings.
+\n->\t\t\tFirst we can read and write strings with the formatted input/output functions,scanf/fscanf and prinf/fprinf.
+\n->\t\t\tSecond we can use a special set of strin only functions ,get string(gets/fgets)and put string(puts/fputs).
+
+\n\nPROGRAM\n]]></string>
+    <string name="stringio2"><![CDATA[#include<stdio.h>
+\n#include<string.h>
+\nint main()
+\n{
+   \n\t\t\tchar name[30];
+   \n\t\t\tprintf(“Enter name: ”);
+   \n\t\t\tgets(name);     //Function to read string from user.
+   \n\t\t\tprintf(“Name: ”);
+   \n\t\t\tputs(name);    //Function to display string.
+   \n\t\t\treturn 0;
+\n}]]></string>
+    <string name="stringio3"><![CDATA[\nOutput :
+\nEnter name: Free Time Learning
+\nName: Free Time Learning]]></string>
+    <string name="stringarray1"><![CDATA[\n->\t\t\tThe declaration of an array of character pointers is an extremely useful extension to single string pointer declarations.
+\nEXAMPLE:\n]]></string>
+    <string name="stringarray2"><![CDATA[#\n#include< stdio.h>
+\nvoid main(void)
+\n{
+\n\t\t\tchar *names[2] = {"Frans", "Coenen"};
+\n\t\t\t/* Output */
+\n\t\t\tprintf("names = %s, %s"\\n",names[0],names[1]);\n\t\t\tnames[0] = "Ray";\n\t\t\tnames[1] = "Paton";\n\t\t\t/* Output */\n\t\t\tprintf("names = %s, %s"\\n"",names[0],names[1]);
+\n}]]></string>
+    <string name="stringarray3"><![CDATA[\nOUTPUT:
+\nnames = Frans, Coenen]]></string>
+    <string name="smf1"><![CDATA[\nstrcat( )\t\t\t\t\t\t Concatenates two Strings
+\nstrcmp( )\t\t\t\t\t\t Compares two Strings
+\nstrcpy( )\t\t\t\t\t\t Copies one String Over another
+\nstrlen( )\t\t\t\t\t\t Finds length of String
+
+\n\n->\t\t\tstrcat() :\n
+\nThis function yours two strings together.
+\nstrcat(string1,string2);
+\nstring1 = VERY
+\nstring2 = FOOLISH
+\nstrcat(string1,string2);
+\nstring1=VERY FOOLISH
+\nstring2 = FOOLISH
+\n\n->\t\t\tstrcmp() function :\n
+\nThis function compares two strings identified by arguments and has a value 0 if they are equal. If they are not, it has the numeric difference between the first non-matching characters in the Strings.
+\nstrcmp(string1,string2);
+\nEx:- strcmp(name1,name2);
+\nstrcmp(name1,“John”);
+\n\n->\t\t\tstrcpy() function :\n
+\nIt works almost as a string assignment operators. It takes the form
+\nstrcpy(string1,string2);
+\nstring2 can be array or a constant.
+\n\n->\t\t\tstrlen() function :\n
+\nCounts and returns the number of characters in a string.
+\nn= strlen(string);
+\nn integer variable which receives the value of length of string.
+
+\n\nEXAMPLE:\n]]></string>
+    <string name="smf2"><![CDATA[\n#include<stdio.h>
+\n#include<string.h>
+\nmain()
+\n{
+\n\t\t\tchar s1[20],s2[20],s3[20];
+\n\t\t\tint X,L1,L2,L3;
+\n\t\t\tprintf(“Enter two string constants"\\n"”);
+\n\t\t\tscanf(“%s %s”,s1,s2);
+\n\t\t\tX=strcmp(s1,s2);
+\n\t\t\tif (X!=0)
+\n\t\t\t{
+\n\t\t\t\t\t\tprintf(“Strings are not equal"\\n"”);
+\n\t\t\t\t\t\tstrcat(s1,s2);
+\n\t\t\t}
+\n\t\t\telse
+\n\t\t\t\t\t\tprintf(“Strings are equal "\\n"”);
+\n\t\t\tstrcpy(s3,s1);
+\n\t\t\tL1=strlen(s1);
+\n\t\t\tL2=strlen(s2);
+\n\t\t\tL3=strlen(s3);
+\n\t\t\tprintf(“s1=%s\t length=%d chars "\\n"”,s1,L1);
+\n\t\t\tprintf(“s2=%s\t length=%d chars "\\n"”,s2,L2);
+\n\t\t\tprintf(“s3=%s\t length=%d chars "\\n"”,s3,L3);
+\n}]]></string>
+    <string name="filemodesa"><![CDATA[\n->\t\t\tA file can be opened in different modes. Below are some of the most commonly used modes for opening or creating a file.]]></string>
+    <string name="filemodesb"><![CDATA[\nr : opens a text file in reading mode.
+\nw : opens or creates a text file in writing mode.
+\na : opens a text file in append mode.
+\nr+ : opens a text file in both reading and writing mode. The file must exist.
+\nw+ : opens a text file in both reading and writing mode. If the file exists, it is truncated first before overwriting. Any old data will be lost. If the file doesnot exist, a new file will be created.
+\na+ : opens a text file in both reading and appending mode. New data is appended at the end of the file and does not overwrite the existing content.\n\n->\t\t\tTo open the file in Binary file mention the mode along with a extra letter ‘b’ as “rb”, “wb”, “rb+”  and so on.]]></string>
+    <string name="fileintroa"><![CDATA[\n->\t\t\tFiles are used to store the information permanently and to access information whenever necessary.
+\n->\t\t\tFiles are stored in the Secondary Storage Devices like Floppy Disks, Hard Disks etc.
+\n->\t\t\tUnlike other programming languages, C does not distinguish between sequential and direct access (random access) files.\n\t\t\tThere are two different types of files in C.  They are\n1.Stream-Oriented (or Standard) files\n2.System-Oriented (or Low-Level) files.\n\n1.STREAMS:\n->\t\t\tAll input and output operations in C is performed with streams.
+\n->\t\t\tStream is a sequence of characters organized into lines (text stream), each line consists of 0 or more characters and ends with the newline character ‘\n’.
+\n->\t\t\tStreams provide communications channels between files and programs.
+\n->\t\t\tA stream can be connected to a file by opening it and the connection is broken by closing the stream.\n->\t\t\tWhen program execution begins, three files and their associated streams are connected to the program automatically. They are\n\n● the standard input stream \n● the standard output stream \n● the standard error stream\n\n->\t\t\tStandard input:\n It  is connected to the keyboard &  it enables a program to read data from the keyboard.
+\n->\t\t\tStandard output:\n It is connected to the screen &  it enables a program to write data to the screen.
+\n->\t\t\tStandard error:\n It is+ connected to the screen &  all error messages are output to standard error.]]></string>
+    <string name="standardliba"><![CDATA[\n->\t\t\tThe standard input and output library is stdio.h, and you will find that you include this library in almost every program you write.
+\n->\t\t\tIt allows printing to the screen and collecting input from the user. \n\nThe functions you will use the most include:
+\n->\t\t\tprintf()\t\t\t is output to the screen
+\n->\t\t\tscanf() \t\t\tis read input from the screen
+\n->\t\t\tgetchar()\t\t\t is return characters typed on screen
+\n->\t\t\tputchar()\t\t\t is output a single character to the screen
+\n->\t\t\tfopen()\t\t\t is open a file, and
+\n->\t\t\tfclose()\t\t\t is close a file
+\n\nThere are many times when we need to get user input from the screen and output information to the screen. ]]></string>
+    <string name="standardlibb"><![CDATA[\n#include <stdio.h>
+\nint main(void) {
+ \n\t\t\tchar login[50];
+ \n\t\t\tprintf(“Enter Name: ”);
+ \n\t\t\tscanf(“%s”, login);
+ \n\t\t\tprintf(“"\\n"Welcome %s"\\n"”, login);
+\n}]]></string>
+    <string name="standardlibc"><![CDATA[\nOUTPUT:\nEnter Name: Jane
+\nWelcome Jane]]></string>
+    <string name="characterioa"><![CDATA[\n->\t\t\tCharacter input functions is used to input a single character.\n\n1. getch(): Use to input single character at a time. But it will not display input character. get stands for input, ch stands for character.
+Syntax: char a = getch();\n\n2. getche(): It is same as getch() function but it will display input character. get stands for input, ch stands for character, e stands for echo(display)
+Syntax: char a = getche();
+Both getch() and getche() functions will not required enter key to terminate.\n\n3. getchar(): It will terminate by enter key after inputting a single character.
+Syntax: char a = getchar();\n\n4. putch(): use to print a single character.
+Syntax: putch(a);\n\n5. putchar(): use to print a single character.Syntax: putchar(a);\nPROGRAM:\n]]></string>
+    <string name="characteriob"><![CDATA[\n#include<stdio.h>
+\n#include<conio.h>
+\nvoid main()
+\n{\n\t\t\tchar a;\n\t\t\tclrscr();\n\t\t\tprintf("Enter character: ");\n\t\t\ta = getch();\n\t\t\t//a = getche();\n\t\t\t//a = getchar();\n\t\t\tprintf(“"\\n"You have pressed: %c”,a);\n\t\t\t//putch(a);\n\t\t\t//putchar(a); //Output of putch and putchar is same\n\t\t\tgetch();\n}]]></string>
+    <string name="characterioc"><![CDATA[\nOUTPUT:\n\nEnter character:
+\nYou have pressed: a]]></string>
+    <string name="searchinga"><![CDATA[\n->\t\t\tSearching is the process of finding a given value position in a list of values. It decides whether a search key is present in the data or not. It is the algorithmic process of finding a particular item in a collection of items. It can be done on internal data structure or on external data structure.\n]]></string>
+    <string name="searchingb"><![CDATA[\n->\t\t\tIt is straightforward and works as follows: we compare each element with the element to search until we find it or the list ends. If it is present, then at what location it occurs. It is also known as a sequential search.\n\nProgram for linear search:]]></string>
+    <string name="searchingc"><![CDATA[\n#include <stdio.h>
+\n#define MAXSIZE 10
+\nint linearsearch (int[], int);
+\nvoid main ()
+\n{
+\n\t\t\tint a[MAXSIZE], key, pos, i;
+\n\t\t\tprintf(“Enter %d elements into the array:”, MAXSIZE);
+\n\t\t\tfor (i=0; i<MAXSIZE; i++)
+\n\t\t\t\t\t\tscanf (“%d”, &a[i]);
+\n\t\t\tprintf(“Enter the key:”);
+\n\t\t\tscanf (“%d”, &key);
+\n\t\t\tpos = linearsearch(a, key);
+\n\t\t\tif (pos)
+\n\t\t\t\t\t\tprintf(“Element found at position %d"\\"n”, pos);
+\n\t\t\telse
+\n\t\t\t\t\t\tprintf(“Element not found"\\n"”);
+\n}
+
+\nint linearsearch (int a[], int key)
+\n{
+\n\t\t\tint i;
+\n\t\t\tfor (i=0; i<MAXSIZE; i++)
+\n\t\t\t\t\t\tif (key == a[i])
+\n\t\t\t\t\t\t\t\t\treturn (i+1);
+\n\t\t\treturn 0;
+\n}\n
+]]></string>
+    <string name="searchingd"><![CDATA[\nOUTPUT:
+\nEnter 10 elements into the array:
+\n5
+\n6
+\n9
+\n8
+\n7
+\n4
+\n1
+\n2
+\n3
+\n55
+\nEnter the key:7
+\nElement found at position 5\n]]></string>
+    <string name="searchinge"><![CDATA[\n->\t\t\tSearch a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array.
+\n->\t\t\tIf the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
+\n->\t\t\tOtherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.\n\nPROGRAM:\n]]></string>
+    <string name="searchingf"><![CDATA[#include <stdio.h>
+\n#define MAXSIZE 10
+\nint binarysearch (int[], int);
+\nvoid main ()
+\n{
+\nint a[MAXSIZE], key, pos, i;
+\nprintf(“Input to the Binary Search must be a sorted list. ! ! !\\n”);
+\nprintf(“Enter %d elements into the array:”, MAXSIZE);
+\nfor (i=0; i<MAXSIZE; i++)
+\n\t\t\t\t\t\tscanf (“%d”, &a[i]);
+\nprintf(“Enter the key: ”);
+\nscanf (“%d”, &key);
+\npos = binarysearch(a, key);
+\nif (pos)
+\n\t\t\t\t\t\tprintf(“Element found at position %d"\\"n”, pos);
+\nelse
+\n\t\t\t\t\t\tprintf(“Element not found"\\n"”);
+\n}
+\nint binarysearch (int a[], int key)
+\n{
+\nint low=0, high=MAXSIZE-1, mid;
+\nwhile (low <= high)
+\n{
+\n\t\t\t\t\t\tmid = (low+high)/2;
+\n\t\t\t\t\t\tif (key < a[mid])
+\n\t\t\t\t\t\t\t\t\thigh = mid - 1;
+\n\t\t\t\t\t\telse if (key > a[mid])
+\n\t\t\t\t\t\t\t\t\tlow = mid + 1;
+\n\t\t\t\t\t\telse
+\n\t\t\t\t\t\t\t\t\treturn (mid+1);
+\n}
+\nreturn 0;
+\n}\n]]></string>
+    <string name="searchingg"><![CDATA[\nOUTPUT:
+\nInput to the Binary Search must be a sorted list. ! ! !
+\nEnter 10 elements into the array: 0 1 2 3 4 5 6 7 8 9
+\nEnter the key: 3
+\nElement found at position 3]]></string>
+    <string name="searchingh"><![CDATA[\n—>\t\tImportant differences between linear search and binary search:\n•	Input data needs to be sorted in Binary Search and not in Linear Search\n•	Linear search does the sequential access whereas Binary search access data randomly.\n•	Time complexity of linear search -O(n) , Binary search has time complexity O(log n).\n•	 Linear search performs equality comparisons and Binary search performs ordering comparisons]]></string>
+    <string name="sortinga"><![CDATA[\n->\t\t\tSorting is a process of ordering individual elements of a list according to their proper rank, either in ascending or descending order. A programming logic with few steps which can sort a bunch of elements are called sorting algorithms. … C programming language is the best to start understanding sorting algorithms.\n]]></string>
+    <string name="sortingb"><![CDATA[\n->\t\t\tThe selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.\n1) The subarray which is already sorted.\n2) Remaining subarray which is unsorted.\n->\t\t\tIn every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.\n\nPROGRAM:\n]]></string>
+    <string name="sortingc"><![CDATA[#include <stdio.h>
+\nvoid selectionsort (int[], int);
+\nvoid main()
+\n{
+\n\t\t\tint a[30], size, i, choice;
+\n\t\t\tprintf(“Enter the size of the list: ”);
+\n\t\t\tscanf(“%d”, &size);
+\n\t\t\tprintf(“Enter %d elements: ”, size);
+\n\t\t\tfor (i=0; i<size; i++)
+\n\t\t\t\t\t\tscanf("%d", &a[i]);
+\n\t\t\tselectionsort (a, size);
+\n\t\t\tprintf(“Sorted Elements: ”);
+\n\t\t\tfor (i=0; i<size; i++)
+\n\t\t\t\t\t\tprintf(“%d ”, a[i]);
+\n}
+\nvoid selectionsort (int a[], int size)
+\n{
+\n\t\t\tint i, j, t, min;
+\n\t\t\tfor (i=0; i<size-1; i++)
+\n\t\t\t{
+\n\t\t\t\t\t\tmin = i;
+\n\t\t\t\t\t\tfor (j=i; j<size; j++)
+\n\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\t\t\t\tif (a[min] > a[j])
+\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tmin = j;
+\n\t\t\t\t\t\t}
+\n\t\t\t\t\t\tt = a[i];
+\n\t\t\t\t\t\ta[i] = a[min];
+\n\t\t\t\t\t\ta[min] = t;
+\n\t\t\t}
+\n}]]></string>
+    <string name="sortingd"><![CDATA[\nOUTPUT:\n
+\nEnter the size of the list: 5
+\nEnter 5 elements: 5 1 4 2 3
+\nSorted Elements: 1 2 3 4 5\n]]></string>
+    <string name="sortinge"><![CDATA[\n->\t\t\tInsertion sort algorithm picks elements one by one and places it to the right position where it belongs in the sorted list of elements. In the following C program we have implemented the same logic.\nEXAMPLE:\nInput elements: 89  17  8  12  0\n\t\t->Step 1: 89  17  8  12  0 (the bold elements are sorted list and non-bold unsorted list)\n\t\t->Step 2: 17  89  8  12  0 (each element will be removed from unsorted list and placed at the right position in the sorted list)\n\t\t->Step 3: 8  17  89  12  0\n\t\t->Step 4: 8  12  17  89  0\n\t\t->
+Step 5: 0  8  12  17  89\n]]></string>
+    <string name="sortingf"><![CDATA[#include <stdio.h>
+\nvoid insertionsort (int[], int);
+\nvoid main()
+\n{
+\n\t\t\tint a[30], size, i, choice;
+\n\t\t\tprintf(“Enter the size of the list: ”);
+\n\t\t\tscanf(“%d”, &size);
+\n\t\t\tprintf(“Enter %d elements: ”, size);
+\n\t\t\tfor (i=0; i<size; i++)
+\n\t\t\t\t\t\tscanf("%d", &a[i]);
+\n\t\t\tinsertionsort (a, size);
+\n\t\t\tprintf(“Sorted Elements: ”);
+\n\t\t\tfor (i=0; i<size; i++)
+\n\t\t\t\t\t\tprintf(“%d ”, a[i]);
+\n}
+\nvoid insertionsort (int a[], int size)
+\n{
+\n\t\t\tint i, j, t;
+\n\t\t\tfor (i=1; i<=size; i++)
+\n\t\t\t{
+\n\t\t\t\t\t\tfor (j=i; j>0; j—)
+\n\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\tif (a[j] < a[j-1])
+\n\t\t\t\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tt = a[j];
+\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ta[j] = a[j-1];
+\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ta[j-1] = t;
+\n\t\t\t\t\t\t\t\t\t}
+\n\t\t\t\t\t\t}
+\n\t\t\t}
+\n}]]></string>
+    <string name="sortingg"><![CDATA[\nOUTPUT:\n
+\nEnter the size of the list: 5
+\nEnter 5 elements: 5 1 4 2 3
+\nSorted Elements: 1 2 3 4 5\n]]></string>
+    <string name="sortingh"><![CDATA[\n->\t\t\tBubble sort is also known as sinking sort. This algorithm compares each pair of adjacent items and swaps them if they are in the wrong order, and this same process goes on until no swaps are needed. In the following program we are implementing bubble sort in C language. In this program user would be asked to enter the number of elements along with the element values and then the program would sort them in ascending order by using bubble sorting algorithm logic.\n\nPROGRAM:\n]]></string>
+    <string name="sortingi"><![CDATA[#include <stdio.h>
+\nvoid bubblesort (int[], int);
+\nvoid main()
+\n{
+\n\t\t\tint a[30], size, i, choice;
+\n\t\t\tprintf(“Enter the size of the list: ”);
+\n\t\t\tscanf(“%d”, &size);
+\n\t\t\tprintf(“Enter %d elements: ”, size);
+\n\t\t\tfor (i=0; i<size; i++)
+\n\t\t\t\t\t\tscanf(“%d”, &a[i]);
+\n\t\t\tbubblesort (a, size);
+\n\t\t\tprintf(“Sorted Elements: ”);
+\n\t\t\tfor (i=0; i<size; i++)
+\n\t\t\t\t\t\tprintf(“%d ”, a[i]);
+\n}
+\nvoid bubblesort (int a[], int size)
+\n{
+\n\t\t\tint i, j, t;
+\n\t\t\tfor (i=1; i<size; i++)
+\n\t\t\t{
+\n\t\t\t\t\t\tfor (j=0; j<size-i; j++)
+\n\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\tif (a[j] > a[j+1])
+\n\t\t\t\t\t\t\t\t\t{
+\n\t\t\t\t\t\t\t\t\t\t\t\tt = a[j];
+\n\t\t\t\t\t\t\t\t\t\t\t\ta[j] = a[j+1];
+\n\t\t\t\t\t\t\t\t\t\t\t\ta[j+1] = t;
+\n\t\t\t\t\t\t\t\t\t}
+\n\t\t\t\t\t\t}
+\n\t\t\t}
+\n}]]></string>
+    <string name="sortingj"><![CDATA[\nOUTPUT:
+\nEnter the size of the list: 5 \nEnter 5 elements: 5 1 4 2 3
+\nSorted Elements: 1 2 3 4 5]]></string>
+    <string name="recursionintroa"><![CDATA[\n->\t\t\tRecursion is the process which comes into existence when a function calls a copy of itself to work on a smaller problem. Any function which calls itself is called recursive function, and such function calls are called recursive calls. Recursion involves several numbers of recursive calls. \n\nEXAMPLE:]]></string>
+    <string name="recursionintrob"><![CDATA[\n#include <stdio.h>\nint fact (int);\nint main ()\n
+{  
+  \n\t\t\tint n,f;   \n\t\t\tprintf(“Enter the number”);  
+\n\t\t\tscanf(“%d”,&n);
+ \n\t\t\t f = fact(n);  \n\t\t\tprintf(“factorial = %d”,f);  
+\n} \n
+int fact(int n)\n
+{  
+    \n\t\t\tif (n==0)\n  
+    {  
+        \n\t\t\t\t\treturn 0;  
+    \n\t\t\t\t   }  
+    \n\t\t\telse if (n==1)\n  
+    {  
+       \n\t\t\t\t\treturn 1;  
+    \n \t\t\t\t}  
+    \n\t\t\telse\n   
+    {  
+        \n\t\t\t\t\treturn n*fact(n-1);  
+   \n\t\t\t\t }\n
+}  ]]></string>
+    <string name="recursionintroc"><![CDATA[\nOUTPUT:\n\nEnter the number 5
+ \nfactorial = 120]]></string>
+    <string name="arraya"><![CDATA[\n->\t\t\tAn array is defined as the collection of similar type of data items stored at contiguous memory locations.\n
+\nSyntax :
+ \n\t\t\tdata_type  array_name[array_size]; \n\nEXAMPLE:\n]]></string>
+    <string name="arrayb"><![CDATA[# include<stdio.h>\n  
+int main()\n
+{      
+     \n\t\t\tint i=0;                 \n\t\t\tint marks[5];//declaration of array     
+\n\t\t\tmarks[0]=80;//initialization of array    
+\n\t\t\tmarks[1]=60;    
+\n\t\t\tmarks[2]=70;    
+\n\t\t\tmarks[3]=85;    
+\n\t\t\tmarks[4]=75;//traversal of array    
+\n\t\t\tfor(i=0;i<5;i++)\n{
+\n\t\t\tprintf(“%d "\\n"”,marks[i]); \n   
+}//end of for loop     
+\nreturn 0; \n 
+}    ]]></string>
+    <string name="arrayc"><![CDATA[\nOUTPUT:\n[ \n80
+  \n60
+  \n70
+  \n85
+  \n75]]></string>
+    <string name="recursiontypea" tools:ignore="TypographyEllipsis"><![CDATA[\n->\t\t\tRecursion are mainly of two types depending on whether a function calls itself from within itself weather two function call one another mutually. \n->\t\t\tThe former is called direct recursion and the latter is called indirect recursion. Thus, the two types of recursion are:\n\n1.Direct recursion
+\n2.Indirect recursion\n\n1.DIRECT RECURSION:
+\n->\t\t\tIf a function calls itself, it is known as direct recursion. This results in a one-step recursive call: the function makes a recursive call inside its own function body.
+\nvoid directRecursionFunction()\n{\n\t\t\t// some code..\n\t\t\tdirectRecursionFunction();\n\t\t\t// some code…\n}\n\n2.INDIRECT RECURSION\n->\t\t\tIf the function f1 calls another function f2 and f2 calls f1 then it is indirect recursion (or mutual recursion).
+
+\n->\t\t\tThis is a two-step recursive call: the function calls another function to make a recursive call.
+
+
+\nvoid indirectRecursionFunctionf1();
+\nvoid indirectRecursionFunctionf2();\n
+ 
+\nvoid indirectRecursionFunctionf1()
+\n{
+ \n\t\t\t// some code…
+
+ \n\t\t\tindirectRecursionFunctionf2();
+
+ \n\t\t\t// some code…
+\n}
+
+\nvoid indirectRecursionFunctionf2()
+\n{
+ \n\t\t\t// some code...
+
+ \n\t\t\tindirectRecursionFunctionf1();
+
+ \n\t\t\t// some code...
+\n}
+
+
+
+\n\n->\t\t\tRecursion may be further categorized as:\n
+
+1.Linear recursion\n
+2.Binary recursion\n
+3.Multiple recursion\n
+
+
+\n1.LINEAR RECURSION:
+\n->\t\t\tIt is the most commonly used recursion, where a function calls itself in simple manner and a terminating condition is used to terminate the recursion.
+\n->\t\t\tForwarding recursion is called winding and getting the control back to the caller is called unwinding.
+
+
+\n\nlong factorial(int n)
+\n{
+\n\t\t\tint f;
+\n\t\t\tif(n==1)\t\t\t               /* terminating condition */
+  \n\t\t\t\t\t\treturn 1;
+\n\t\t\tf=n*factorial(n-1); \t\t\t/* calling function itself */
+\n\t\t\treturn f;
+\n}
+
+
+\n\n2.BINARY RECURSION:
+\n->\t\t\tIt is a type of recursion where function is called twice instead once in the recursive functions.\n->\t\t\tThis type of recursive functions were used in implementing Towers of Hanoi, Binary search and Quick sort in the previous sessions.
+
+\n\n/* Quick sort recursive function */
+\nvoid qsort(int start,int end)
+\n{
+ \n\t\t\tint s;
+ \n\t\t\tif(start>=end)
+     \n\t\t\t\t\t\treturn;
+ \n\t\t\ts=split(start,end);
+ \n\t\t\tqsort(start,s-1);         /* takes left sub array to split point */
+ \n\t\t\tqsort(s+1,end);         /* takes right sub array to split point */
+\n}
+
+
+\n\n3.MULTIPLE RECURSION:
+\n->\t\t\tMultiple recursion can be treated a generalized form of binary recursion.
+\n->\t\t\tWhen a function makes multiple recursive calls possibly more than two, it is called multiple recursion.]]></string>
+    <string name="fibonaccia"><![CDATA[\n->\t\t\tThe Fibonacci sequence is a sequence where the next term is the sum of the previous two terms.
+\n->\t\t\tThe first two terms of the Fibonacci sequence are 0 followed by 1.
+
+\n->\t\t\tThe Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21\n\nPROGRAM:\n]]></string>
+    <string name="fibonaccib"><![CDATA[#include <stdio.h>
+\nint main() {
+   \n\t\t\tint i, n, t1 = 0, t2 = 1, nextTerm;
+   \n\t\t\tprintf(“Enter the number of terms: ”);
+   \n\t\t\tscanf(“%d”, &n);
+   \n\t\t\tprintf(“Fibonacci Series: ”);
+
+   \n\t\t\tfor (i = 1; i <= n; ++i)
+   \n\t\t\t{
+       \n\t\t\t\t\t\tprintf(“%d, ”, t1);
+       \n\t\t\t\t\t\tnextTerm = t1 + t2;
+       \n\t\t\t\t\t\tt1 = t2;
+       \n\t\t\t\t\t\tt2 = nextTerm;
+   \n\t\t\t}
+
+   return 0;
+\n}]]></string>
+    <string name="fibonaccic"><![CDATA[\nOUTPUT:\nEnter the number of terms: 10
+\nFibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34]]></string>
+
+    <string name="factoriala"><![CDATA[\n->\t\t\tThe factorial of a positive number n is given by:\n->\t\t\tfactorial of n (n!) = 1 * 2 * 3 * 4 *…  * n\n->\t\t\tThe factorial of a negative number doesnot exist.And the factorial of 0 is 1.\n\nPROGRAM:\n]]></string>
+    <string name="factorialb"><![CDATA[#include<stdio.h>
+\nlong int multiplyNumbers(int n);
+\nint main() \n{
+   \n\t\t\tint n;
+   \n\t\t\tprintf(“Enter a positive integer: ”);
+   \n\t\t\tscanf(“%d”,&n);
+   \n\t\t\tprintf(“Factorial of %d = %ld”, n, multiplyNumbers(n));
+   \n\t\t\treturn 0;
+\n}
+
+\nlong int multiplyNumbers(int n) \n{
+   \n\t\t\tif (n>=1)
+       \n\t\t\t\t\t\treturn n*multiplyNumbers(n-1);
+   \n\t\t\telse
+       \n\t\t\t\t\t\treturn 1;
+\n}]]></string>
+    <string name="factorialc"><![CDATA[\nOUTPUT:\n
+
+\nEnter a positive integer: 6
+\nFactorial of 6 = 720]]></string>
+    <string name="gcda"><![CDATA[\nPROGRAM:\n]]></string>
+    <string name="gcdb"><![CDATA[#include <stdio.h>
+\nint hcf(int n1, int n2);
+\nint main() \n{
+   \n\t\t\tint n1, n2;
+   \n\t\t\tprintf(“Enter two positive integers: ”);
+   \n\t\t\tscanf(“%d %d”, &n1, &n2);
+   \n\t\t\tprintf("G.C.D of %d and %d is %d.", n1, n2, hcf(n1, n2));
+   \n\t\t\treturn 0;
+\n}\nint hcf(int n1, int n2) \n{
+   \n\t\t\tif (n2 != 0)
+       \n\t\t\t\t\t\treturn hcf(n2, n1 % n2);
+   \n\t\t\telse
+       \n\t\t\t\t\t\treturn n1;
+\n}]]></string>
+    <string name="gcdc"><![CDATA[\nOUTPUT:\n
+
+\nEnter two positive integers: \n366
+\n60
+\nG.C.D of 366 and 60 is 6.]]></string>
+    <string name="hanoia"><![CDATA[\n->\t\t\tThe tower of Hanoi is a mathematical puzzle.
+\n->\t\t\tIt consists of three rods and a number of disks of different sizes which can slide onto any rod.
+\n->\t\t\tThe puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top.
+\n->\t\t\tWe have to obtain the same stack on the third rod.
+
+\n->->\t\t\tThe objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules−
+
+\n->\t\t\tOnly one disk can be moved at a time.
+
+\n->\t\t\tEach move consists of taking the upper disk from one of the stacks and placing it on top of another stack ie. a disk can only be moved if it is the uppermost disk on a stack.
+
+\n->\t\t\tNo disk may be placed on top of a smaller disk.
+
+\n\nPROGRAM:]]></string>
+    <string name="hanoib"><![CDATA[#include<stdio.h>
+\nvoid TOH(int n,char x,char y,char z)
+\n{
+  \n\t\t\tif(n>0) \n\t\t\t{
+     \n\t\t\t\t\t\tTOH(n-1,x,z,y);
+     \n\t\t\t\t\t\tprintf(“"\\n"%c to %c”,x,y);
+     \n\t\t\t\t\t\tTOH(n-1,z,y,x);
+  \n\t\t\t}
+\n}
+\nint main() \n{
+  \n\t\t\tint n=3;
+  \n\t\t\tTOH(n,A,B,C);
+\n}]]></string>
+    <string name="hanoic"><![CDATA[\nOUTPUT:\n
+\nA to B
+\nA to C
+\nB to C
+\nA to B
+\nC to A
+\nC to B
+\nA to B]]></string>
+    <string name="array1da"><![CDATA[\n->\t\t\tA list of items can be given one variable index is called single subscripted variable  or a one-dimensional array.
+
+\n->\t\t\tThe subscript value starts from 0. If we want 5 elements the declaration will be int  number[5];
+
+\n->\t\t\tThe elements will be  number[0], number[1], number[2], number[3], number[4]  There will not be number[5]
+
+\n->\t\t\tDeclaration of One - Dimensional Arrays :
+
+\n->\t\t\t\\t\t\tType variable  name [sizes];  
+
+
+\n\nEXAMPLE:
+\n
+]]></string>
+    <string name="array1db"><![CDATA[\n#include<stdio.h>
+
+
+\nint main()
+
+\n{
+   \nint arr[5], i;
+
+   \nfor(i = 0; i < 5; i++)
+   \n{
+       \n\t\t\tprintf(“Enter a[%d]: ”, i);
+       \n\t\t\tscanf(“%d”, &arr[i]);
+   \n}
+
+   \nprintf(“\nPrinting elements of the array: \n\n”);
+
+   \nfor(i = 0; i < 5; i++)
+   \n{
+       \n\t\t\tprintf(“%d ”, arr[i]);
+   \n}
+
+   \n// signal to operating system program ran fine
+   \nreturn 0;
+\n}]]></string>
+    <string name="array1dc"><![CDATA[\nOUTPUT:\n
+\nEnter a[0]: 11
+\nEnter a[1]: 22
+\nEnter a[2]: 34
+\nEnter a[3]: 4
+\nEnter a[4]: 34
+
+\nPrinting elements of the array:
+
+\n11 22 34 4 34]]></string>
+    <string name="array2da"><![CDATA[\n->\t\t\tTo store tables we need two dimensional arrays.  
+\n->\t\t\tEach table consists of rows and columns.  
+\n->\t\t\tTwo dimensional arrays are declare as  
+\n\t\t\t\t\t\ttype array name [row-size][col-size];
+\n\nINITIALIZING TWO DIMENSIONAL ARRAYS:\n
+\n->\t\t\tThey can be initialized by following their declaration with a list of initial values enclosed in braces.
+\n\t\t\t\t\t\tEx:- int table[2][3] = {0,0,0,1,1,1};
+\n\nPROGRAM:\n]]></string>
+    <string name="array2db"><![CDATA[#include<stdio.h>  
+\nint main(){      
+\n\t\t\tint i=0,j=0;    
+\n\t\t\tint arr[4][3]={{1,2,3},{2,3,4},{3,4,5},{4,5,6}};    
+\n\t\t\t//traversing 2D array    
+\n\t\t\tfor(i=0;i<4;i++){    
+\n\t\t\t\t\t\tfor(j=0;j<3;j++){    
+  \n\t\t\t\t\t\t\t\t\tprintf(“arr[%d] [%d] = %d "\\n"”,i,j,arr[i][j]);    
+\n\t\t\t\t\t\t}//end of j    
+\n\t\t\t}//end of i    
+\nreturn 0;  
+\n}    ]]></string>
+    <string name="array2dc"><![CDATA[\nOUTPUT:\narr[0][0] = 1
+\narr[0][1] = 2
+\narr[0][2] = 3
+\narr[1][0] = 2
+\narr[1][1] = 3
+\narr[1][2] = 4
+\narr[2][0] = 3
+\narr[2][1] = 4
+\narr[2][2] = 5
+\narr[3][0] = 4
+\narr[3][1] = 5
+\narr[3][2] = 6]]></string>
+    <string name="arraymultia"><![CDATA[\n->\t\t\tC allows arrays of three or more dimensions.  
+\n->\t\t\tThe exact limit is determined by Compiler.  
+\n->\t\t\ttype array-names[s1][s2][s3] - - - - - [sn]; where si is size of dimension.
+\n\t\t\t Ex:- int Survey[3][5][2];
+\n\nPROGRAM:\n]]></string>
+    <string name="arraymultib"><![CDATA[#include <stdio.h>
+\nint main()
+\n{
+ \n\t\t\tint test[2][3][2]; \n\t\t\tprintf(“Enter 12 values: "\\n"”);
+\n\t\t\tfor (int i = 0; i < 2; ++i)
+ \n\t\t\t{
+   \n\t\t\t\t\t\tfor (int j = 0; j < 3; ++j)
+   \n\t\t\t\t\t\t{
+     \n\t\t\t\t\t\t\t\t\tfor (int k = 0; k < 2; ++k)
+     \n\t\t\t\t\t\t\t\t\t{
+       \n\t\t\t\t\t\t\t\t\t\t\t\tscanf(“%d”, &test[i][j][k]);
+     \n\t\t\t\t\t\t\t\t\t}
+   \n\t\t\t\t\t\t}
+ \n\t\t\t}
+ \n// Printing values with proper index.
+ \n\t\t\tprintf(“"\\n"Displaying values:"\\n"”);
+ \n\t\t\tfor (int i = 0; i < 2; ++i)
+ \n\t\t\t{
+   \n\t\t\t\t\t\tfor (int j = 0; j < 3; ++j)
+   \n\t\t\t\t\t\t{
+     \n\t\t\t\t\t\t\t\t\tfor (int k = 0; k < 2; ++k)
+     \n\t\t\t\t\t\t\t\t\t{
+       \n\t\t\t\t\t\t\t\t\t\t\t\tprintf(“test[%d][%d][%d] = %d"\\n"”, i, j, k, test[i][j][k]);
+     \n\t\t\t\t\t\t\t\t\t}
+   \n\t\t\t\t\t\t}
+ \n\t\t\t}
+\n\t\t\treturn 0;
+\n}]]></string>
+    <string name="arraymultic"><![CDATA[\nOUTPUT:\n
+
+\nEnter 12 values:
+\n
+\n2
+\n3
+\n4
+\n5
+\n6
+\n7
+\n8
+\n9
+\n10
+\n11
+\n12
+
+\n\nDisplaying Values:
+\ntest[0][0][0] = 1
+\ntest[0][0][1] = 2
+\ntest[0][1][0] = 3
+\ntest[0][1][1] = 4
+\ntest[0][2][0] = 5
+\ntest[0][2][1] = 6
+\ntest[1][0][0] = 7
+\ntest[1][0][1] = 8
+\ntest[1][1][0] = 9
+\ntest[1][1][1] = 10
+\ntest[1][2][0] = 11
+\ntest[1][2][1] = 12]]></string>
+    <string name="ctokensa"><![CDATA[\n->\t\t\tC tokens are the basic buildings blocks in C language which are constructed together to write a C program.\n->\t\t\tEach and every smallest individual units in a C program are known as C tokens.\n->\t\t\tC tokens are of six types. They are,\n->\t\t\t1.Keywords\t\t\t(eg: int, while),\n->\t\t\t2.Identifiers\t\t\t(eg: main, total),\n->\t\t\t3.Constants\t\t\t(eg: 10, 20),\n->\t\t\t4.Strings\t\t\t(eg: “total”, “hello”),\n->\t\t\t5.Special symbols\t\t\t(eg: (), {}),\n->\t\t\t6.Operators\t\t\t(eg: +, /,-,*)]]></string>
+    <string name="historya"><![CDATA[\n->\t\t\tHistory of C language is interesting to know. Here we are going to discuss a brief history of the c language.\n->\t\t\tC programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT&T (American Telephone & Telegraph), located in the U.S.A.\n->\t\t\tDennis Ritchie is known as the founder of the c language.\n->\t\t\tIt was developed to overcome the problems of previous languages such as B, BCPL, etc.\n->\t\t\tInitially, C language was developed to be used in UNIX operating system. It inherits many features of previous languages such as B and BCPL.\n\n->\t\t\tLet us see the programming languages that were developed before C language.\n]]></string>
+    <string name="datatypesa"><![CDATA[\n->\t\t\tTo represent different types of data in C program we need different data types.\n->\t\t\tA data type is essential to identify the storage representation and the type of operations that can be performed on that data.\nC supports four different classes of data types namely  \n1. Basic Data types \n2. Derives data types \n3. User defined data types \n4. Pointer data types \n\n1.BASIC DATA TYPES:\n->\t\t\tAll arithmetic operations such as Addition , subtraction etc are possible on basic data types.\nE.g.:\nint a,b;\nChar c;]]></string>
+    <string name="datatypesb"><![CDATA[\n\n2.DERIVED DATA TYPES:\n->\t\t\tDerived datatypes are used in ‘C’ to store a set of data values. Arrays and Structures are examples for derived data types.Ex: int a[10];Char name[20];12\n\n3.USER DEFINED DATATYPES:\n->\t\t\tC Provides a facility called typedef for creating new data type names defined by the user. For Example ,the declaration ,\t\t\t\t\t\ttypedef int Integer;\n->\t\t\tmakes the name Integer a synonym of int.Now the type Integer can be used in declarations ,casts,etc,like,\t\t\t\t\t\tInteger num1,num2;\n->\t\t\tWhich will be treated by the C compiler as the declaration of num1,num2as int variables. “typedef” ia more useful with structures and pointers.\n\n4.POINTER DATA TYPES:\n->\t\t\tPointer data type is necessary to store the address of a variable]]></string>
+    <string name="variablesa"><![CDATA[\n->\t\t\tA variable is nothing but a name given to a storage area that our programs can manipulate.\n->\t\t\tEach variable in C has a specific type, which determines the size and layout of the variable memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.\n->\t\t\tThe name of a variable can be composed of letters, digits, and the underscore character.\n->\t\t\tIt must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive.\n\nRULES FOR NAMING C VARIABLE:\n\n->\t\t\tVariable name must begin with letter or underscore.\n->\t\t\tVariables are case sensitive\n->\t\t\tThey can be constructed with digits, letters.\n->\t\t\tNo special symbols are allowed other than underscore.\n->\t\t\tsum, height, _value are some examples for variable name\n\nDECLARING & INITIALIZING C VARIABLE:\n\n->\t\t\tVariables should be declared in the C program before to use.\n->\t\t\tMemory space is not allocated for a variable while declaration. \n->\t\t\tIt happens only on variable definition.Variable initialization means assigning a value to the variable]]></string>
+    <string name="inputoutputstatsa"><![CDATA[\n\ni) printf\n->\t\t\tThis function is used for displaying the output on the screen i.e the data is moved from the computer memory to the output device.\nSyntax:\nprintf(“format string”, arg1, arg2, …..);\n\nii) scanf\n->\t\t\tscanf is used when we enter data by using an input device.\nSyntax:\nscanf (“format string”, &arg1, &arg2, …..);\n\n->\t\t\tThe number of items which are successful are returned.\n->\t\t\tFormat string consists of the conversion specifier. Arguments can be variables or array name and represent the address of the variable. Each variable must be preceded by an ampersand (&). Array names should never begin with an ampersand.\n->\t\t\tscanf works totally opposite to printf.\n->\t\t\tIt requires an enter key in order to accept an input.\n\niii) getch\n->\t\t\tThis function is used to input a single character. The character is read instantly and it does not require an enter key to be pressed. The character type is returned but it does not echo on the screen.\nSyntax:\nint getch(void);\nch=getch();\n->\t\t\tch - assigned the character that is returned by getch.\n\niv) putch\n->\t\t\tthis function is a counterpart of getch. Which means that it will display a single character on the screen. The character that is displayed is returned.\nSyntax:\nint putch(int);\nputch(ch);\n->\t\t\tch - the character that is to be printed.\n\nv) getche\n->\t\t\tThis function is used to input a single character. The main difference between getch and getche is that getche displays the (echoes) the character that we type on the screen.\nSyntax:\nint getch(void);\nch=getche();\n\nvi) getchar\n->\t\t\tThis function is used to input a single character. The enter key is pressed which is followed by the character that is typed. The character that is entered is echoed.\nSyntax:\nch=getchar;\n\nvii) putchar\n->\t\t\tThis function is the other side of getchar. A single character is displayed on the screen.\nSyntax:\nputchar(ch);\n\nviii) gets and puts\n->\t\t\tThey help in transferring the strings between the computer and the standard input-output devices.\n->\t\t\tOnly single arguments are accepted. The arguments must be such that it represents a string.\n->\t\t\tIt may include white space characters.\n->\t\t\tIf gets is used enter key has to be pressed for ending the string.\n->\t\t\tThe gets and puts function are used to offer simple alternatives of scanf and printf for reading and displaying.]]></string>
+    <string name="structureofca"><![CDATA[\n->\t\t\tThe program written in C language follows this basic structure. The sequence of sections should be as they are in the basic structure. A  C program should have one or more sections but the sequence of sections is to be followed.\n\n1. Documentation section  \n2. Linking section\n3. Definition section\n4. Global declaration sectionn\n5. Main function section\n\t\t\t{\n\t\t\t\t\tDeclaration section\n\t\t\t\t\t\tExecutable section\n\t\t\t}\n 6. Sub program or function section\n\n->\t\t\t1. DOCUMENTATION SECTION :\n comes first and is used to document the use of logic or reasons in your program. It can be used to write the objective of the program, developer and logic details. The documentation  is done in C language with   /*  and   */ . Whatever is written between these two are called comments.\n\n->\t\t\t2. LINKING SECTION :\n This section tells the compiler to link the certain occurrences of keywords or functions in your program to the header files specified in this section.  e.g.   #include <stdio.h>\n\n->\t\t\t3. DEFINITION SECTION :\n It is used to declare some constants and assign them some value.  e.g.   #define MAX 25  Here #define is a compiler directive which tells the compiler whenever MAX is found in the program replace it with 25.\n\n->\t\t\t4. GLOBAL DECLARATION SECTION :\n Here the variables which are used through out the program (including main and other functions) are declared so as to make them global(i.e accessible to all parts of program) e.g. int i;  (before main())\n\n->\t\t\t5. MAIN FUNCTION SECTION  :\nIt tells the compiler where to start the execution from\nmain()\n{\n point from execution starts\n}\nmain function has two sections\n\t  1. declaration section : In this the variables and their data types are declared.\n\t  2. Executable section : This has the  part of program which actually performs the task we need.\n\n->\t\t\t6. SUB PROGRAM OR FUNCTION SECTION : This has all the sub programs or the functions which our program needs.\n]]></string>
+    <string name="operatorsa"><![CDATA[\n->\t\t\tC language supports a rich set of built-in operators.\n->\t\t\tAn operator is a symbol that tells the compiler to perform a certain mathematical or logical manipulation. Operators are used in programs to manipulate data and variables.\n\n->C operators can be classified into following types:\n1.Arithmetic operators\n2.Relational operators\n3.Logical operators\n4.Bitwise operators\n5.Assignment operators\n6.Conditional operators\n7.Special operators\n]]></string>
+    <string name="operatorsb"><![CDATA[\n1.ARITHMETIC OPERATORS:\n->\t\t\tC supports all the basic arithmetic operators. The following table shows all the basic arithmetic operators.]]></string>
+    <string name="operatorsc"><![CDATA[\n2.RELATIONAL OPERATORS:\n->\t\t\tWe often compare two quantities and depending on their relation take certain decisions for that comparison we use relational operators.\n]]></string>
+    <string name="operatorsd"><![CDATA[\n3.LOGICAL OPERATOTS:\n->\t\t\t An expression of this kind which combines two or more relational expressions is termed as a logical expressions or a compound relational expression.\n]]></string>
+    <string name="operatorse"><![CDATA[\n4. BIT WISE OPERATORS :\n->\t\t\tC supports special operators known as bit wise operators for manipulation of data at bit level. They are not applied to float or double. \n ]]></string>
+    <string name="operatorsf"><![CDATA[\n5.ASSIGNMENT OPERATORS :\n->\t\t\tThey are used to assign the result of an expression to a variable. The assignment operator is "=".\n]]></string>
+    <string name="operatorsg"><![CDATA[\n6.CONDITIONAL OPERATOR :\n->\t\t\tA ternary operator pair "?:" is available in C to construct conditional expressions of the form\t\t\t\t\t\t\t\t\texp1 ? exp2 : exp3;\nIt work as\n\t\t\tif exp1 is true then exp2 else exp3\n]]></string>
+    <string name="quiz1">-->https://www.geeksforgeeks.org/c-language-2-gq/\n\n-->https://www.javatpoint.com/c-quiz\n\n-->https://www.tutorialspoint.com/cprogramming/cprogramming_online_quiz.htm\n\n-->https://data-flair.training/blogs/online-c-programming-test/\n\n</string>
+    <string name="operatorsh"><![CDATA[\n7.SPECIAL OPERATORS :\n->\t\t\tThese operators which do not fit in any of the above classification are ,(comma), sizeof, Pointer operators(& and *) and member selection operators (. and ->).\n->\t\t\tThe comma operator is used to link related expressions together.  sizeof operator is used to know the sizeof operand\n]]></string>
+</resources>
+

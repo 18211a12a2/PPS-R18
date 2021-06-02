@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".files" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button62"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttoncolor"
+            android:textColor="#FFFFFF"
+            android:text="INTRODUCTION"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button63"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="FILE MODES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button62"
+            app:layout_constraintStart_toStartOf="@+id/button62"
+            app:layout_constraintTop_toBottomOf="@+id/button62" />
+
+        <Button
+            android:id="@+id/button64"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="STANDARD I/O LIBRARY"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button63"
+            app:layout_constraintStart_toStartOf="@+id/button63"
+            app:layout_constraintTop_toBottomOf="@+id/button63" />
+
+        <Button
+            android:id="@+id/button65"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="CHARACTER I/O"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button64"
+            app:layout_constraintStart_toStartOf="@+id/button64"
+            app:layout_constraintTop_toBottomOf="@+id/button64" />
+
+        <Button
+            android:id="@+id/button66"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="SEARCHING"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button65"
+            app:layout_constraintStart_toStartOf="@+id/button65"
+            app:layout_constraintTop_toBottomOf="@+id/button65" />
+
+        <Button
+            android:id="@+id/button67"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="SORTING"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button66"
+            app:layout_constraintStart_toStartOf="@+id/button66"
+            app:layout_constraintTop_toBottomOf="@+id/button66" />
+
+        <Button
+            android:id="@+id/button223"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="QUIZ"
+            android:textAlignment="center"
+            android:textColor="#1098D5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button67"
+            app:layout_constraintStart_toStartOf="@+id/button67"
+            app:layout_constraintTop_toBottomOf="@id/button67"
+            tools:ignore="MissingConstraints,NotSibling" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".ps" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttoncolor"
+            android:textColor="#FFFFFF"
+            android:text="ALGORITHM"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="FLOWCHART"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button29"
+            app:layout_constraintStart_toStartOf="@+id/button29"
+            app:layout_constraintTop_toBottomOf="@id/button29" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="PROGRAM DEVELOPMENT STEPS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button30"
+            app:layout_constraintStart_toStartOf="@+id/button30"
+            app:layout_constraintTop_toBottomOf="@id/button30" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:text="COMPUTER LANGUAGES"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/button31"
+            app:layout_constraintStart_toStartOf="@+id/button31"
+            app:layout_constraintTop_toBottomOf="@id/button31" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="CREATING AND RUNNING PROGRAMS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button32"
+            app:layout_constraintStart_toStartOf="@+id/button32"
+            app:layout_constraintTop_toBottomOf="@id/button32" />
+
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="HISTORY OF C"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button33"
+            app:layout_constraintStart_toStartOf="@+id/button33"
+            app:layout_constraintTop_toBottomOf="@id/button33" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="C PROGRAM STRUCTURE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button35"
+            app:layout_constraintStart_toStartOf="@+id/button35"
+            app:layout_constraintTop_toBottomOf="@id/button35" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="C TOKENS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button36"
+            app:layout_constraintStart_toStartOf="@+id/button36"
+            app:layout_constraintTop_toBottomOf="@id/button36" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="DATA TYPES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@id/button2" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="VARIABLES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button3"
+            app:layout_constraintStart_toStartOf="@+id/button3"
+            app:layout_constraintTop_toBottomOf="@id/button3" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="I/O STATEMENTS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button4"
+            app:layout_constraintStart_toStartOf="@+id/button4"
+            app:layout_constraintTop_toBottomOf="@id/button4" />
+
+        <Button
+            android:id="@+id/button86"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="OPERATORS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button5"
+            app:layout_constraintStart_toStartOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@id/button5" />
+
+        <Button
+            android:id="@+id/button218"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="QUIZ"
+            android:textAlignment="center"
+            android:textColor="#1098D5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button86"
+            app:layout_constraintStart_toStartOf="@+id/button86"
+            app:layout_constraintTop_toBottomOf="@id/button86"
+            tools:ignore="MissingConstraints,NotSibling" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

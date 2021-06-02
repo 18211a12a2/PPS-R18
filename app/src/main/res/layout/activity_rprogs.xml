@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".rprogs">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button76"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttoncolor"
+            android:textColor="#FFFFFF"
+            android:text="FIBONACCI SERIES"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/button83"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="FACTORIAL"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button76"
+            app:layout_constraintStart_toStartOf="@+id/button76"
+            app:layout_constraintTop_toBottomOf="@+id/button76" />
+
+        <Button
+            android:id="@+id/button84"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="GCD"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button83"
+            app:layout_constraintStart_toStartOf="@+id/button83"
+            app:layout_constraintTop_toBottomOf="@+id/button83" />
+
+        <Button
+            android:id="@+id/button85"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="TOWERS OF HANOI"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button84"
+            app:layout_constraintStart_toStartOf="@+id/button84"
+            app:layout_constraintTop_toBottomOf="@+id/button84" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

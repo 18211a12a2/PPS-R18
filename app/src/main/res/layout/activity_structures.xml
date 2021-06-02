@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".structures" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button52"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttoncolor"
+            android:text="DEFINITION"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button53"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="INITIALIZATION"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button52"
+            app:layout_constraintStart_toStartOf="@+id/button52"
+            app:layout_constraintTop_toBottomOf="@+id/button52"
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/button54"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="ACCESSING STRUCTURES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button53"
+            app:layout_constraintStart_toStartOf="@+id/button53"
+            app:layout_constraintTop_toBottomOf="@+id/button53" />
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="NESTED STRUCTURES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button54"
+            app:layout_constraintStart_toStartOf="@+id/button54"
+            app:layout_constraintTop_toBottomOf="@+id/button54" />
+
+        <Button
+            android:id="@+id/button56"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="ARRAYS OF STRUCTURES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button55"
+            app:layout_constraintStart_toStartOf="@+id/button55"
+            app:layout_constraintTop_toBottomOf="@+id/button55" />
+
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="STRUCTURES AND FUNCTIONS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button56"
+            app:layout_constraintStart_toStartOf="@+id/button56"
+            app:layout_constraintTop_toBottomOf="@+id/button56" />
+
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="POINTERS TO STRUCTURES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button57"
+            app:layout_constraintStart_toStartOf="@+id/button57"
+            app:layout_constraintTop_toBottomOf="@+id/button57" />
+
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="UNIONS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button58"
+            app:layout_constraintStart_toStartOf="@+id/button58"
+            app:layout_constraintTop_toBottomOf="@+id/button58" />
+
+        <Button
+            android:id="@+id/button60"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="TYPE DEFINITON"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button59"
+            app:layout_constraintStart_toStartOf="@+id/button59"
+            app:layout_constraintTop_toBottomOf="@+id/button59" />
+
+        <Button
+            android:id="@+id/button61"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="ENUMERATED TYPES"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/button60"
+            app:layout_constraintStart_toStartOf="@+id/button60"
+            app:layout_constraintTop_toBottomOf="@+id/button60" />
+
+        <Button
+            android:id="@+id/button222"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttoncolor"
+            android:gravity="center"
+            android:text="QUIZ"
+            android:textAlignment="center"
+            android:textColor="#1098D5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/button61"
+            app:layout_constraintStart_toStartOf="@+id/button61"
+            app:layout_constraintTop_toBottomOf="@id/button61"
+            tools:ignore="MissingConstraints,NotSibling" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
